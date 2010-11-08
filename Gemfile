@@ -10,6 +10,10 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 group :development, :test do
   gem "rspec-rails", ">= 2.0.0.beta.22"
   gem 'factory_girl_rails'
+  gem 'remarkable', '>= 4.0.0.alpha4'
+  gem 'remarkable_activemodel', '>= 4.0.0.alpha4'
+  gem 'remarkable_activerecord', '>= 4.0.0.alpha4'
+  
 end
 
 # Use unicorn as the web server

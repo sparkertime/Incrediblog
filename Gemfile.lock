@@ -64,6 +64,15 @@ GEM
       rake (>= 0.8.4)
       thor (~> 0.14.0)
     rake (0.8.7)
+    remarkable (4.0.0.alpha4)
+      rspec (>= 2.0.0.alpha11)
+    remarkable_activemodel (4.0.0.alpha4)
+      remarkable (~> 4.0.0.alpha4)
+      rspec (>= 2.0.0.alpha11)
+    remarkable_activerecord (4.0.0.alpha4)
+      remarkable (~> 4.0.0.alpha4)
+      remarkable_activemodel (~> 4.0.0.alpha4)
+      rspec (>= 2.0.0.alpha11)
     rspec (2.0.0.beta.22)
       rspec-core (= 2.0.0.beta.22)
       rspec-expectations (= 2.0.0.beta.22)
@@ -88,5 +97,8 @@ PLATFORMS
 DEPENDENCIES
   factory_girl_rails
   rails (= 3.0.0)
+  remarkable (>= 4.0.0.alpha4)
+  remarkable_activemodel (>= 4.0.0.alpha4)
+  remarkable_activerecord (>= 4.0.0.alpha4)
   rspec-rails (>= 2.0.0.beta.22)
   sqlite3-ruby
