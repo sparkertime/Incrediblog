@@ -16,6 +16,8 @@
 <% end %>
 </table>
 
+<%= will_paginate(@posts, :page_links => false, :previous_label => '← Newer Posts', :next_label => 'Older Posts →') %>
+
 <br />
 
 <%= link_to 'New Post', new_post_path %>
