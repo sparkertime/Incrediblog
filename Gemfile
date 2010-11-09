@@ -13,11 +13,11 @@ group :development, :test do
   gem 'remarkable', '>= 4.0.0.alpha4'
   gem 'remarkable_activemodel', '>= 4.0.0.alpha4'
   gem 'remarkable_activerecord', '>= 4.0.0.alpha4'
-  gem "will_paginate", "~> 3.0.pre2"  
 end
 
+gem "will_paginate", "~> 3.0.pre2"  
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
