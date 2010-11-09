@@ -90,6 +90,7 @@ GEM
     treetop (1.4.8)
       polyglot (>= 0.3.1)
     tzinfo (0.3.23)
+    will_paginate (3.0.pre2)
 
 PLATFORMS
   ruby
@@ -102,3 +103,4 @@ DEPENDENCIES
   remarkable_activerecord (>= 4.0.0.alpha4)
   rspec-rails (>= 2.0.0.beta.22)
   sqlite3-ruby
+  will_paginate (~> 3.0.pre2)

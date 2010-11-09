@@ -13,7 +13,7 @@ group :development, :test do
   gem 'remarkable', '>= 4.0.0.alpha4'
   gem 'remarkable_activemodel', '>= 4.0.0.alpha4'
   gem 'remarkable_activerecord', '>= 4.0.0.alpha4'
-  
+  gem "will_paginate", "~> 3.0.pre2"  
 end
 
 # Use unicorn as the web server
