@@ -2,6 +2,8 @@ class Post < ActiveRecord::Base
 
   validates :title, :presence => true
   validates :body, :presence => true
+  
+  FORMATS = [:textile, :html]
 
   def formatted_body
     return ::RedCloth.new(body).to_html if format == :textile
