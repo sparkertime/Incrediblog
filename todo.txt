@@ -1,0 +1,5 @@
+limit posts on index
+build out sidebar, contact, about
+legacy routing
+live preview of typing
+image upload, reformatting
