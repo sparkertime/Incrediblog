@@ -1,4 +1,4 @@
-limit posts on index
+limit posts on index - Done!
 build out sidebar, contact, about
 legacy routing
 live preview of typing
