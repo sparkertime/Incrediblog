@@ -1,0 +1,16 @@
+module AppConfig
+  #probably overkill, but I was looking for an excuse to play with some dynamic generation
+
+  SETTINGS_HASH = {
+    :owner_email => 'YOUR_EMAIL_HERE (e.g. me@my.com)',
+    :web_host => 'YOUR BASE WEBSITE ADDRESS (e.g. citizenparker.com)'
+  }
+
+  SETTINGS_HASH.each do |key, value|
+    instance_eval <<-END_METHOD
+      def self.#{key}
+        SETTINGS_HASH[#{key.inspect}]
+      end
+    END_METHOD
+  end
+end
