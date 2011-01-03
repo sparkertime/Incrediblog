@@ -1,0 +1,6 @@
+%head
+
+%body
+  %h1 [#{AppConfig.web_host}] Message from #{@contact_options[:sender_name]} (#{@contact_options[:sender_email]})
+
+  = @contact_options[:message]
