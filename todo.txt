@@ -1,5 +1,11 @@
 limit posts on index - Done!
-build out sidebar, contact, about
+build out
+  - sidebar
+  - contact - DONE
+  - about
+  - archives
 legacy routing
+permalink generation (steal from pcv)
+add some cukes!
 live preview of typing
 image upload, reformatting
