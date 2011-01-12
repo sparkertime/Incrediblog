@@ -1,0 +1,10 @@
+%h2 Archives
+
+- if @posts.size == 0
+  %p Nothing yet! This lazy bum should write something!
+-else
+  - @posts.each do |month, posts_in_month|
+    %h4= month.strftime("%B %Y")
+    %ul
+      - posts_in_month.each do |post|
+        =link_to post.title, post_path(post)
