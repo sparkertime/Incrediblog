@@ -1,4 +1,5 @@
 class Post < ActiveRecord::Base
+  has_friendly_id :title, :use_slug => true, :approximate_ascii => true, :max_length => 50  
 
   validates :title, :presence => true
   validates :body, :presence => true

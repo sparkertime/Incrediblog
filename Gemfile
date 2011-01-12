@@ -21,6 +21,7 @@ gem 'unicorn'
 
 gem 'haml'
 gem 'RedCloth'
+gem "friendly_id", "~> 3.1"
 
 # Deploy with Capistrano
 # gem 'capistrano'
