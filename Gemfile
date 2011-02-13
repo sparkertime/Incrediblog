@@ -16,9 +16,8 @@ group :development, :test do
 end
 
 gem "will_paginate", "~> 3.0.pre2"  
-# Use unicorn as the web server
 gem 'unicorn'
-
+gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'haml'
 gem 'RedCloth'
 gem "friendly_id", "~> 3.1"

@@ -1,0 +1,3 @@
+owner_email: youremail@here.com
+web_host: your.web.com/host
+hashed_password: "the result of BCrypt::Password.create('YourPasswordHere') in rails console"
