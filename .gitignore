@@ -2,4 +2,4 @@
 db/*.sqlite3
 log/*.log
 tmp/
-config/initializers/app_config.rb
+config/config.yml
