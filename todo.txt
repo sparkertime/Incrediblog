@@ -3,9 +3,10 @@ build out
   - sidebar
   - contact - DONE
   - about
-  - archives
+  - archives - DONE
+add some cukes, tests. Pretty sad.
+auth - IN PROGRESS
 legacy routing
-permalink generation (steal from pcv)
-add some cukes!
+permalink generation (steal from pcv) - DONE
 live preview of typing
 image upload, reformatting
