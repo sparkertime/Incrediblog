@@ -5,7 +5,7 @@ build out
   - about
   - archives - DONE
 add some cukes, tests. Pretty sad.
-auth - IN PROGRESS
+auth - DONE
 legacy routing
 permalink generation (steal from pcv) - DONE
 live preview of typing

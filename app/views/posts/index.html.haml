@@ -1,8 +1,8 @@
 - @posts.each do |post|
-  %h3=post.title
+  %h3
+    =link_to post.title, post
+
   %p!=post.formatted_body
-
-
 
 = will_paginate(@posts, :page_links => false, :previous_label => '← Newer Posts', :next_label => 'Older Posts →')
 
