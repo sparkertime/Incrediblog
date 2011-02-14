@@ -1,5 +1,6 @@
 Incrediblog::Application.routes.draw do
   resources :posts
+  resources :sessions, :only => [:new, :create]
 
   match 'archives' => 'pages#archives'
   root :to => 'posts#index'
