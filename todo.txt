@@ -6,7 +6,7 @@ build out
   - archives - DONE
 add some cukes, tests. Pretty sad.
 auth - DONE
-legacy routing
+legacy routing - DONE
 permalink generation (steal from pcv) - DONE
 live preview of typing
 image upload, reformatting
