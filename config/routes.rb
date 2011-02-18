@@ -1,4 +1,9 @@
 Incrediblog::Application.routes.draw do
+
+  AppConfig.legacy_routes.each do |permalink|
+    match "/posts/#{permalink}.aspx" => redirect("/posts/#{permalink}", :status => 301)
+  end
+
   resources :posts
   resources :sessions, :only => [:new, :create]
 
