@@ -1,12 +1,4 @@
-limit posts on index - Done!
-build out
-  - sidebar
-  - contact - DONE
-  - about
-  - archives - DONE
-add some cukes, tests. Pretty sad.
-auth - DONE
-legacy routing - DONE
-permalink generation (steal from pcv) - DONE
-live preview of typing
-image upload, reformatting
+Add cache-control headers so that I can play nicely with http://docs.duostack.com/ruby/http-caching
+Add index
+Add contact page (https://gist.github.com/463598)
+Add about page
