@@ -3,23 +3,30 @@
 
   <channel>
     <title>Scott Parker - citizenparker.com</title>
-    <link>http://citizenparker.com/</link>
+    <link>http://www.citizenparker.com/</link>
     <atom:link href="http://coyled.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Tue, 22 Mar 2011 21:53:25 CDT</pubDate>
-    <lastBuildDate>Tue, 22 Mar 2011 21:53:25 CDT</lastBuildDate>
+    <pubDate>Wed, 23 Mar 2011 18:28:41 CDT</pubDate>
+    <lastBuildDate>Wed, 23 Mar 2011 18:28:41 CDT</lastBuildDate>
 
     
     <item>
       <title>A post</title>
-      <link>http://citizenparker.com/posts/2011-03-22-test1</link>
+      <link>http://www.citizenparker.com/posts/2011-03-22-test1</link>
       <pubDate>Tue, 22 Mar 2011 00:00:00 CDT</pubDate>
       <author>Scott Parker</author>
-      <guid>http://citizenparker.com/posts/test1</guid>
+      <guid>http://www.citizenparker.com/posts/test1</guid>
       <description>&lt;p&gt;
   Hello, there! This is a post.
 &lt;/p&gt;
+&lt;div class='highlight'&gt;
+  &lt;pre&gt;&lt;span class='k'&gt;public&lt;/span&gt;
+  &lt;span class='k'&gt;class&lt;/span&gt;
+  &lt;span class='nc'&gt;Bloop&lt;/span&gt;
+  &lt;span class='p'&gt;{&lt;/span&gt;
+  &lt;span class='p'&gt;}&lt;/span&gt;&lt;/pre&gt;
+&lt;/div&gt;
 </description>
     </item>
     
