@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+  <channel>
+    <title>Scott Parker - citizenparker.com</title>
+    <link>http://www.citizenparker.com/</link>
+    <atom:link href="http://coyled.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>A blog like any other, except this one is mine.</description>
+    <language>en-us</language>
+    <pubDate>Sun, 27 Mar 2011 15:26:56 CDT</pubDate>
+    <lastBuildDate>Sun, 27 Mar 2011 15:26:56 CDT</lastBuildDate>
+
+    
+    <item>
+      <title>A post</title>
+      <link>http://www.citizenparker.com/posts/2011-03-22-test1</link>
+      <pubDate>Tue, 22 Mar 2011 00:00:00 CDT</pubDate>
+      <author>Scott Parker</author>
+      <guid>http://www.citizenparker.com/posts/test1</guid>
+      <description>&lt;p&gt;
+  Hello, there! This is a post.
+&lt;/p&gt;
+&lt;div class='highlight'&gt;
+  &lt;pre&gt;&lt;span class='k'&gt;public&lt;/span&gt;
+  &lt;span class='k'&gt;class&lt;/span&gt;
+  &lt;span class='nc'&gt;Bloop&lt;/span&gt;
+  &lt;span class='p'&gt;{&lt;/span&gt;
+  &lt;span class='p'&gt;}&lt;/span&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+
+  </channel> 
+</rss>

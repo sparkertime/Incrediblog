@@ -1,4 +1,4 @@
-require "bundler/setup"
-load 'test.rb'
+require 'bundler/setup'
+require 'rack/jekyll'
 
 run Rack::Jekyll.new
