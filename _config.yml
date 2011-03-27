@@ -1,2 +1,3 @@
 permalink: /posts/:year-:month-:day-:title
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock']
+destination: 'mnt/site'

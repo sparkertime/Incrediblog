@@ -14,9 +14,9 @@ module Jekyll
     end
 
     def code_to_html(code, language)
-      response = HTTParty.post('http://pygments.appspot.com/'), :body => {'lang'=>language.strip, 'code'=>code})
+      response = HTTParty.post('http://pygments.appspot.com/', :body => {'lang'=>language.strip, 'code'=>code})
       puts "An error occured while processing this #{language} code: #{code}" unless response.success?
-      request.body
+      response.body
     end
   end
 end
