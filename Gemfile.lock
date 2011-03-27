@@ -5,6 +5,7 @@ GEM
       fast-stemmer (>= 1.0.0)
     crack (0.1.8)
     directory_watcher (1.4.0)
+    duostack (0.4.0)
     fast-stemmer (1.0.0)
     haml (3.0.25)
     hpricot (0.8.4)
@@ -28,6 +29,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  duostack
   haml
   hpricot
   httparty
