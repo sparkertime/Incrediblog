@@ -24,6 +24,7 @@ module Rack
       if ::Dir[@path + "/**/*"].empty?
         begin
           require "jekyll"
+          puts "trying to compile"
           options = ::Jekyll.configuration(opts)
           site = ::Jekyll::Site.new(options)
           @compiling = true
@@ -32,6 +33,7 @@ module Rack
           @compiling = false
         end
       end
+      puts "compiled"
     end
     def call(env)
       request = Request.new(env)
