@@ -10,13 +10,19 @@ module Jekyll
     end
 
     def render(context)
-      Haml::HTML.new(code_to_html(super.join,@language)).render
+      html_syntax = indent(code_to_html(super.join,@language))
+      ":plain\n#{html_syntax}"
     end
 
     def code_to_html(code, language)
       response = HTTParty.post('http://pygments.appspot.com/', :body => {'lang'=>language.strip, 'code'=>code})
       puts "An error occured while processing this #{language} code: #{code}" unless response.success?
       response.body
+    end
+
+    def indent(html)
+      indented = html.gsub(/\n/, "\n  ")
+      "  #{indented}"
     end
   end
 end
