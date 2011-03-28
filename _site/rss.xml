@@ -7,9 +7,26 @@
     <atom:link href="http://coyled.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Sun, 27 Mar 2011 16:28:26 CDT</pubDate>
-    <lastBuildDate>Sun, 27 Mar 2011 16:28:26 CDT</lastBuildDate>
+    <pubDate>Mon, 28 Mar 2011 07:24:00 CDT</pubDate>
+    <lastBuildDate>Mon, 28 Mar 2011 07:24:00 CDT</lastBuildDate>
 
+    
+    <item>
+      <title>A post</title>
+      <link>http://www.citizenparker.com/posts/2011-03-28-krammy</link>
+      <pubDate>Mon, 28 Mar 2011 00:00:00 CDT</pubDate>
+      <author>Scott Parker</author>
+      <guid>http://www.citizenparker.com/posts/krammy</guid>
+      <description>&lt;p&gt;Hello, there! This is a post.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Boop&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;something&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>A post</title>
@@ -20,7 +37,6 @@
       <description>&lt;p&gt;
   Hello, there! This is a post.
 &lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Boop&lt;/span&gt;&amp;#x000A;  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;something&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&amp;#x000A;  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&amp;#x000A;&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
     </item>
     

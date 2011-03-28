@@ -1,0 +1,12 @@
+---
+layout: default
+title: A post
+---
+Hello, there! This is a post.
+
+{% syntax ruby %}
+class Boop
+  def something(a,b,c)
+  end
+end
+{% endsyntax %}

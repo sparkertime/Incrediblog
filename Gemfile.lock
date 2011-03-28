@@ -16,6 +16,7 @@ GEM
       directory_watcher (>= 1.1.1)
       liquid (>= 1.9.0)
       maruku (>= 0.5.9)
+    kramdown (0.13.2)
     liquid (2.2.2)
     maruku (0.6.0)
       syntax (>= 1.0.0)
@@ -37,6 +38,7 @@ DEPENDENCIES
   hpricot
   httparty
   jekyll
+  kramdown
   mini_magick
   rack (<= 1.2.1)
   rack-jekyll

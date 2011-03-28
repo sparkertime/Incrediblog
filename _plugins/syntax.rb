@@ -10,8 +10,7 @@ module Jekyll
     end
 
     def render(context)
-      html_syntax = indent(code_to_html(super.join,@language))
-      ":plain\n#{html_syntax}"
+      code_to_html(super.join,@language)
     end
 
     def code_to_html(code, language)
