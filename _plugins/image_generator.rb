@@ -2,7 +2,7 @@ require 'mini_magick'
 require 'fileutils'
 
 module Jekyll
-  class ImageFormatter < Generator
+  class ImageGenerator < Generator
     safe true
     priority :low
 
