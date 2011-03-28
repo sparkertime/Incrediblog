@@ -19,10 +19,13 @@ GEM
     liquid (2.2.2)
     maruku (0.6.0)
       syntax (>= 1.0.0)
+    mini_magick (3.2)
+      subexec (~> 0.0.4)
     rack (1.2.1)
     rack-jekyll (0.3.5)
       jekyll
       rack
+    subexec (0.0.4)
     syntax (1.0.0)
 
 PLATFORMS
@@ -34,5 +37,6 @@ DEPENDENCIES
   hpricot
   httparty
   jekyll
+  mini_magick
   rack (<= 1.2.1)
   rack-jekyll
