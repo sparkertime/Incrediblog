@@ -1,5 +1,8 @@
-Add cache-control headers so that I can play nicely with http://docs.duostack.com/ruby/http-caching
 Add index
 Add contact page (https://gist.github.com/463598)
 Add about page
+LAUNCH
 Add Youtube tag
+Add response section
+Launch custom pygments.appspot.com engine with linenos
+Add cache-control headers so that I can play nicely with http://docs.duostack.com/ruby/http-caching

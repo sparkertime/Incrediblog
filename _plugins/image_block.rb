@@ -32,6 +32,7 @@ module Jekyll
       result
     end
 
+    # turn " blah: bloop bleep" into ["blah", "bloop bleep"]
     def parse_line(line)
       matches = line.match(/^\s*(\S+):(.*)/)
       [matches.captures[0], matches.captures[1].strip]
