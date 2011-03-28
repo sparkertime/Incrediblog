@@ -2,5 +2,4 @@ Add cache-control headers so that I can play nicely with http://docs.duostack.co
 Add index
 Add contact page (https://gist.github.com/463598)
 Add about page
-Add image tag
 Add Youtube tag
