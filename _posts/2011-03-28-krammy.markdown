@@ -4,6 +4,11 @@ title: A post
 ---
 Hello, there! This is a post.
 
+{% image uwars.jpg %}
+  title: This is just a test title.
+  link: http://www.google.com
+{% endimage %}
+
 {% syntax ruby %}
 class Boop
   def something(a,b,c)
