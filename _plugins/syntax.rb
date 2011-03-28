@@ -1,5 +1,3 @@
-require 'haml'
-require 'haml/html'
 require 'httparty'
 
 module Jekyll
