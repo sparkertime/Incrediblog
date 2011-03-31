@@ -7,8 +7,8 @@
     <atom:link href="http://coyled.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Mon, 28 Mar 2011 12:49:27 CDT</pubDate>
-    <lastBuildDate>Mon, 28 Mar 2011 12:49:27 CDT</lastBuildDate>
+    <pubDate>Thu, 31 Mar 2011 07:39:12 CDT</pubDate>
+    <lastBuildDate>Thu, 31 Mar 2011 07:39:12 CDT</lastBuildDate>
 
     
     <item>
@@ -21,12 +21,7 @@
 
 &lt;p&gt;&lt;a href=&quot;http://www.google.com&quot;&gt;&lt;img src=&quot;/images/uwars.jpg&quot; title=&quot;This is just a test title.&quot; alt=&quot;This is just a test title.&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Boop&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;something&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;p&gt;Liquid error: getaddrinfo: nodename nor servname provided, or not known&lt;/p&gt;
 </description>
     </item>
     
