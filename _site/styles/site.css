@@ -1,0 +1,85 @@
+body, html {
+  margin: 0px;
+  font-family: 'Droid Sans';
+  background-color: #F2F3F4;
+}
+
+header {
+  font-family: 'IM Fell Great Primer';
+  letter-spacing: -0.06em;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  padding-bottom: 0px;
+  border-bottom: #424242 7px solid;
+}
+
+#header-content {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+nav img {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  display: inline;
+  margin-top: 0px;
+  margin-left: 5px;
+  display: inline;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: 'IM Fell Great Primer';
+  font-size: 1.8em;
+  letter-spacing: -0.06em;
+  text-align: center;
+}
+
+nav {
+  display: inline;
+  font-style: italic;
+}
+
+nav ul {
+  list-style: none; 
+  margin: 0 auto; 
+  display: inline;
+}
+
+nav li {
+  display: inline
+}
+
+nav a:link, header nav a:visited {
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:active,
+nav .active a:link, nav .active a:visited {
+  background: #3cc4ff;
+  color: #fff;
+  text-shadow: none !important;
+}
+
+#content {
+  padding: 20px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+.plain {
+  color: #fff;
+  text-decoration: none;
+}

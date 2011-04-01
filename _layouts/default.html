@@ -4,26 +4,35 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>{{ page.title }} | citizenparker.com</title>
+    <title>{{ page.title }} // Scott Parker</title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link href="http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet" type="text/css" >
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/styles/site.css">
     <link rel="stylesheet" href="/styles/highlight.css">
     <!-- something about the rss feed -->
   </head>
 
   <body>
     <header>
-      citizenparker.com
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/archives.html">Archives</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-      </ul>
+      <section id="header-content">
+      <a href="/" class="plain"><img src='/images/logo-light.png' ></a>
+      <h1><a href="/" class="plain">spparker.com</a></h1>
+        <nav><ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="http://feeds2.feedburner.com/citizenparker">RSS</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/archives.html">Archives</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul></nav>
+      </section>
     </header>
-    {{ content }}
+    <section id="content">
+      {{ content }}
+    </section>
   </body>
 </html>
