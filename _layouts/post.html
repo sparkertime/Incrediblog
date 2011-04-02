@@ -2,7 +2,8 @@
 layout: default
 ---
 
-my post
-<section id="post">
-{{ content }}
+<section class="post">
+<h2><a href="{{ page.url }}">{{ page.title }} </a></h2>
+  <section class="post-date">{{ page.date | date: "%A, %B %d, %Y") }}</section>
+  {{ content }}
 </section>

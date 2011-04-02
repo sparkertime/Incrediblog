@@ -4,7 +4,11 @@ title: spparker.com
 ---
 
 {% for post in paginator.posts %}
-  <a href="{{ post.url }}">{{ post.title }}</a>
+  <section class="post">
+  <h2><a href="{{ post.url }}">{{ post.title }} </a></h2>
+    <section class="post-date">{{ post.date | date: "%A, %B %d, %Y") }}</section>
+    {{ post.content }}
+  </section>
 {% endfor %}
 
 <section id="paging">
