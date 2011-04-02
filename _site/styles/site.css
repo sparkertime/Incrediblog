@@ -81,9 +81,14 @@ h1 {
   font: normal 4em Arvo;
 }
 
-h1 a{
+h1 a:visited, h1 a:link {
   text-decoration: none;
-  color: #000;
+  color: black;
+}
+
+h1 a:hover, h1 a:active {
+  color: black;
+  background-color: white;
 }
 
 #subtitle {
@@ -97,4 +102,14 @@ h1 a{
 
 #page-content h2{
   font-family: Arvo;
+}
+
+a:link, a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: white;
+  background-color: red;
 }
