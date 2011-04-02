@@ -7,12 +7,12 @@
     <atom:link href="http://coyled.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Sat, 02 Apr 2011 10:03:05 CDT</pubDate>
-    <lastBuildDate>Sat, 02 Apr 2011 10:03:05 CDT</lastBuildDate>
+    <pubDate>Sat, 02 Apr 2011 11:03:42 CDT</pubDate>
+    <lastBuildDate>Sat, 02 Apr 2011 11:03:42 CDT</lastBuildDate>
 
     
     <item>
-      <title>A post</title>
+      <title>A second post</title>
       <link>http://www.citizenparker.com/posts/2011-03-28-krammy</link>
       <pubDate>Mon, 28 Mar 2011 00:00:00 CDT</pubDate>
       <author>Scott Parker</author>

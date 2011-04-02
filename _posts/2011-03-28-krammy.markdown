@@ -1,6 +1,6 @@
 ---
-layout: default
-title: A post
+layout: post
+title: A second post
 ---
 Hello, there! This is a post.
 

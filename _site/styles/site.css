@@ -2,14 +2,17 @@ body, html {
   margin: 0px;
   font: normal 1em/1.5em georgia;
   background-color: #e3e3e3;
+  height: 100%
 }
 
 #container {
   width: 900px;
   margin: 0 auto;
+  height: 100%;
 }
 
 #content {
+  min-height: 150%;
   background-color: #fff;
   width: 670px;
   float: left;
@@ -112,4 +115,8 @@ a:link, a:visited {
 a:hover, a:active {
   color: white;
   background-color: red;
+}
+
+#paging {
+  text-align: center;
 }
