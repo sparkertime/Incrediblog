@@ -1,6 +1,5 @@
-Add index
 Add contact page (https://gist.github.com/463598)
-Add about page
+Add google analytics
 LAUNCH
 Add Youtube tag
 Add response section
