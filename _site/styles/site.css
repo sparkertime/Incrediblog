@@ -37,10 +37,11 @@ body, html {
   padding: 10px;
   background-color: #fff;
   border-radius: 10px;
-  font: normal 0.8em 'Cabin';
+  font: normal 0.8em Cabin;
 }
 
 #sidebar h2, #sidebar h3 {
+  font-family: Cabin;
   font-weight: normal;
   color: #999;
 }
