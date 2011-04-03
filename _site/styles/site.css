@@ -1,3 +1,7 @@
+/***********************************************************
+ * Top level elements 
+ **********************************************************/
+
 body, html {
   margin: 0px;
   font: normal 1em/1.5em georgia;
@@ -22,6 +26,10 @@ body, html {
   box-shadow: -5px 0px 50px #CCC;
 }
 
+#page-content {
+  padding: 20px;
+}
+
 #sidebar {
   float: right;
   width: 200px;
@@ -37,11 +45,9 @@ body, html {
   color: #999;
 }
 
-img {
-  border: 5px solid #ddd;
-  margin: 0px auto;
-  display: block;
-}
+/***********************************************************
+ * Header
+ **********************************************************/
 
 header {
   text-align: center;
@@ -58,7 +64,7 @@ nav ul {
 }
 
 nav li {
-  display: inline; 
+  display: inline;
 }
 
 nav a:link,  nav a:visited {
@@ -70,12 +76,12 @@ nav a:link,  nav a:visited {
     margin: 0px 1.5em;
     text-decoration: none;
 }
+
 nav a:hover,  nav a:active, nav .active a:link,  nav .active a:visited {
     background: red;
     color: #fff;
     text-shadow: none !important;
 }
-
 
 h1 {
   margin: 0px;
@@ -98,10 +104,19 @@ h1 a:hover, h1 a:active {
   color: #999999;
 }
 
-#page-content {
-  padding: 20px;
+/***********************************************************
+ * Site-wide basic elements
+ **********************************************************/
+
+h1, h2, h3, h4, h5 h6 {
+  font-family: Arvo;
 }
 
+img {
+  border: 5px solid #ddd;
+  margin: 0px auto;
+  display: block;
+}
 
 a:link, a:visited {
   color: red;
@@ -112,6 +127,10 @@ a:hover, a:active {
   color: white;
   background-color: red;
 }
+
+/***********************************************************
+ * Posts
+ **********************************************************/
 
 #paging {
   text-align: center;
@@ -124,7 +143,6 @@ a:hover, a:active {
 }
 
 .post h2{
-  font-family: Arvo;
   margin: 0px;
 }
 
@@ -137,4 +155,18 @@ a:hover, a:active {
   border-bottom: 1px dashed #cccccc;
   width: 300px;
   margin: 0px auto;
+}
+
+/***********************************************************
+ * Archives
+ **********************************************************/
+
+.archive-date {
+  color :#999;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.archive-post a:link, .archive-post a:visited {
+  font-family: Arvo;
 }

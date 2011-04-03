@@ -86,7 +86,7 @@ nav a:hover,  nav a:active, nav .active a:link,  nav .active a:visited {
 h1 {
   margin: 0px;
   padding: 10px;
-  font: normal 4em;
+  font: normal 4em Arvo;
 }
 
 h1 a:visited, h1 a:link {
@@ -155,4 +155,18 @@ a:hover, a:active {
   border-bottom: 1px dashed #cccccc;
   width: 300px;
   margin: 0px auto;
+}
+
+/***********************************************************
+ * Archives
+ **********************************************************/
+
+.archive-date {
+  color :#999;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.archive-post a:link, .archive-post a:visited {
+  font-family: Arvo;
 }
