@@ -1,4 +1,7 @@
 LAUNCH
+favicon / touch icons
+rss discoverability
+meta tags
 Add Youtube tag
 Add response section
 Launch custom pygments.appspot.com engine with linenos
