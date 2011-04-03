@@ -1,4 +1,4 @@
 permalink: /posts/:year-:month-:day-:title
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'lib/email']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'lib']
 markdown: kramdown
 paginate: 10

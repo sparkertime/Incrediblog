@@ -7,6 +7,7 @@ class Emailer < Sinatra::Base
 
   post '/contact' do
     return error if params[:email].nil? || params[:name].nil? || params[:message].nil?
+    Pony.mail(:to=>MY_EMAIL_ADDRESS, :from=>"noreply@spparker.com", :subject=>"[spparker.com] Message from #{params[:email]}", :body => params[:message])
     redirect '/contact.html?success=true'
   end
 
