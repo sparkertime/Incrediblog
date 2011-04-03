@@ -2,8 +2,6 @@
 layout: default
 title: Contact Me
 ---
-%p
-  Use this form to contact me. All fields are required.
 
 %section{:id => 'errors', :style => 'display:none;'}
   %p
@@ -11,7 +9,10 @@ title: Contact Me
 
 %section{:id => 'success', :style => 'display:none;'}
   %p
-    Yay, your email was sent! Thanks for getting in touch!
+    Hooray, your email was sent! Thanks for getting in touch!
+
+%p
+  Use this form to contact me. All fields are required.
 
 %section{:id => 'contact'}
   %form{:method => 'post', :action => '/contact'}
