@@ -7,8 +7,8 @@
     <atom:link href="http://coyled.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Sat, 02 Apr 2011 23:55:38 CDT</pubDate>
-    <lastBuildDate>Sat, 02 Apr 2011 23:55:38 CDT</lastBuildDate>
+    <pubDate>Sun, 03 Apr 2011 11:30:07 CDT</pubDate>
+    <lastBuildDate>Sun, 03 Apr 2011 11:30:07 CDT</lastBuildDate>
 
     
     <item>
@@ -32,8 +32,8 @@
     
     <item>
       <title>A post</title>
-      <link>http://www.citizenparker.com/posts/2011-03-22-test1</link>
-      <pubDate>Tue, 22 Mar 2011 00:00:00 CDT</pubDate>
+      <link>http://www.citizenparker.com/posts/2010-02-22-test1</link>
+      <pubDate>Mon, 22 Feb 2010 00:00:00 CST</pubDate>
       <author>Scott Parker</author>
       <guid>http://www.citizenparker.com/posts/test1</guid>
       <description>&lt;p&gt;
