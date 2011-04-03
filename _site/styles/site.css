@@ -48,7 +48,7 @@ header {
 }
 
 nav {
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 3px double #cccccc;
   margin-bottom: 1px;
 }
 
@@ -80,7 +80,6 @@ nav a:hover,  nav a:active, nav .active a:link,  nav .active a:visited {
 h1 {
   margin: 0px;
   padding: 10px;
-  border-top: 1px solid #cccccc;
   font: normal 4em Arvo;
 }
 
@@ -116,6 +115,7 @@ a:hover, a:active {
 
 #paging {
   text-align: center;
+  margin: 20px;
 }
 
 .post {
@@ -131,4 +131,10 @@ a:hover, a:active {
 .post-date {
   color: #999;
   font-size: 0.8em;
+}
+
+.divider {
+  border-bottom: 1px dashed #cccccc;
+  width: 300px;
+  margin: 0px auto;
 }
