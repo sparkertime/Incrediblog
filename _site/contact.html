@@ -35,22 +35,37 @@
         </header>
         <section id="page-content">
           <p>
-  Use this form to contact me.
+  Use this form to contact me. All fields are required.
 </p>
-<form>
+<section id='errors' style='display:none;'>
   <p>
-    <label>Name</label>
-    <input id='name' name='name' type='text' />
+    Oops, looks like something went wrong. Ensure that you have all fields completed and try again. If you continue to encounter issues, <a href="http://www.twitter.com/citizenparker">ping me on Twitter</a>.
   </p>
+</section>
+<section id='success' style='display:none;'>
   <p>
-    <label>Email</label>
-    <input id='email' name='email' type='text' />
+    Yay, your email was sent! Thanks for getting in touch!
   </p>
-  <p>
-    <label>Message</label>
-    <textarea id='message' name='message'></textarea>
-  </p>
-</form>
+</section>
+<section id='contact'>
+  <form action='/contact' method='post'>
+    <p>
+      <label>Name</label>
+      <input id='name' name='name' type='text' />
+    </p>
+    <p>
+      <label>Email</label>
+      <input id='email' name='email' type='text' />
+    </p>
+    <p>
+      <label>Message</label>
+      <textarea id='message' name='message'></textarea>
+    </p>
+    <p>
+      <input type='submit' value='Send it!' />
+    </p>
+  </form>
+</section>
 
         </section>
       </section>

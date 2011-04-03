@@ -3,17 +3,29 @@ layout: default
 title: Contact Me
 ---
 %p
-  Use this form to contact me.
+  Use this form to contact me. All fields are required.
 
-%form
+%section{:id => 'errors', :style => 'display:none;'}
   %p
-    %label Name
-    %input{:type => 'text', :id => 'name', :name => 'name'}
+    Oops, looks like something went wrong. Ensure that you have all fields completed and try again. If you continue to encounter issues, <a href="http://www.twitter.com/citizenparker">ping me on Twitter</a>.
 
+%section{:id => 'success', :style => 'display:none;'}
   %p
-    %label Email
-    %input{:type => 'text', :id => 'email', :name => 'email'}
+    Yay, your email was sent! Thanks for getting in touch!
 
-  %p
-    %label Message
-    %textarea{:id => 'message', :name => 'message'}
+%section{:id => 'contact'}
+  %form{:method => 'post', :action => '/contact'}
+    %p
+      %label Name
+      %input{:type => 'text', :id => 'name', :name => 'name'}
+
+    %p
+      %label Email
+      %input{:type => 'text', :id => 'email', :name => 'email'}
+
+    %p
+      %label Message
+      %textarea{:id => 'message', :name => 'message'}
+
+    %p
+      %input{:type => 'submit', :value => 'Send it!'}

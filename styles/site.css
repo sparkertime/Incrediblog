@@ -10,7 +10,7 @@ body, html {
 }
 
 #container {
-  width: 900px;
+  width: 910px;
   margin: 0 auto;
   height: 100%;
 }
@@ -170,4 +170,20 @@ a:hover, a:active {
 
 .archive-post a:link, .archive-post a:visited {
   font-family: Arvo;
+}
+
+/***********************************************************
+ * Contact Me
+ **********************************************************/
+#contact label {
+  display: block;
+}
+
+#contact input[type='text'] {
+  width: 300px;
+}
+
+#contact textarea {
+  width: 500px;
+  height: 300px;
 }
