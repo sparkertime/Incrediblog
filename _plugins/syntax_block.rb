@@ -16,11 +16,6 @@ module Jekyll
       puts "An error occured while processing this #{language} code: #{code}" unless response.success?
       response.body
     end
-
-    def indent(html)
-      indented = html.gsub(/\n/, "\n  ")
-      "  #{indented}"
-    end
   end
 end
 

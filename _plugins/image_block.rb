@@ -6,7 +6,7 @@ module Jekyll
     end
 
     def render(context)
-      load_options nodelist_to_lines
+      load_options block_contents
 
       if link?
         "<a href='#{link_url}'>#{image_tag}</a>"
@@ -19,14 +19,14 @@ module Jekyll
       "<img src='#{image_url}' title='#{title}' alt='#{alt}'>"
     end
 
-    def load_options(lines)
-      lines.each do |line|
+    def load_options(contents)
+      contents.each do |line|
         variable, value = parse_line(line)
         instance_variable_set("@#{variable}", value)
       end
     end
 
-    def nodelist_to_lines
+    def block_contents
       text = @nodelist[0]
       result = text.split(/\n/).map {|x| x.strip }.reject {|x| x.empty? }
       result
