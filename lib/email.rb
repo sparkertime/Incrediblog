@@ -1,13 +1,12 @@
 require 'sinatra'
 require 'pony'
-require File.join(File.dirname(__FILE__),'my_email')
 
 
 class Emailer < Sinatra::Base
 
   post '/contact' do
     return error if params[:email].nil? || params[:name].nil? || params[:message].nil?
-    Pony.mail(:to=>MY_EMAIL_ADDRESS, :from=>FROM_EMAIL_ADDRESS, :subject=>"[spparker.com] Message from #{params[:email]}", :body => params[:message])
+    Pony.mail(:to=>ENV['EMAIL_TO'], :from=>ENV['EMAIL_FROM'], :subject=>"[spparker.com] Message from #{params[:email]}", :body => params[:message])
     redirect '/contact.html?success=true'
   end
 
