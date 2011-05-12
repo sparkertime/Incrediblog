@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Keeping Jekyll Classy
 the point: Out-of-the-box Jekyll falls short of building a first-class blog engine. With a little work you can bend it to your will.
 ---

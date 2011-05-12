@@ -1,7 +1,12 @@
 ---
-layout: default
+layout: post
 title: Spray-and-Pray Developer Resumes
 ---
+
+{% image resume.jpg %}
+  title: "TiddlyRésumé" by psd
+  link: http://www.flickr.com/photos/psd/3055756907/
+{% endimage %}
 
 I interview a fair amount of software developers (although not as often as I used to, sadly), and so I have people ask me about a variety of issues related to finding programming gigs. What certifications, what schools, what questions to ask, and even what attire to wear.
 

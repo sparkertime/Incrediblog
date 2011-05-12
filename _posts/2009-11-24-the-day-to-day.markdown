@@ -1,7 +1,13 @@
 ---
-layout: default
+layout: post
 title: The Day-to-Day
 ---
+
+{% image tools.jpg %}
+  title: "the tools from maine" by denisecarbonell
+  link: http://www.flickr.com/photos/denisecarbonell/3923601326/
+{% endimage %}
+
 Scott Koon recently wrote a great article, [Pros Don’t Make Do](http://www.lazycoder.com/weblog/2009/11/23/pros-dont-make-do/). Scott argues that in order to be a true professional, you have to use the right tool for the job.
 
 I agree entirely. Rarely is there one silver-bullet solution to every software problem. No language, framework, or toolset is appropriate to every situation, but numerous software shops assume the opposite. Many software developers are or have been in such "one-size-fits-all" organizations. Is there a reason in these places to study tools and frameworks you may not be able to use right here, right now?
@@ -19,4 +25,5 @@ I have similar stories about Ruby's method_missing, aspect oriented programming,
 Of course your mileage may vary. If you decide you have nothing to gain in the day-to-day from learning an alien language or unfamiliar toolset, you are destined to be proved correct regardless. If instead you approach such opportunities with an open mindset, you may be surprised at what new thoughts and ideas trickle in.
 
 Or if you are like me, you’ll be pleasantly surprised when anything whatsoever manages to trickle in.
--Scott
+
+-SP
