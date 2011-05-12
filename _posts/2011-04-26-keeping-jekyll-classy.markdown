@@ -1,14 +1,19 @@
 ---
 layout: default
-title: Making a Humane Jekyll Blog
+title: Keeping Jekyll Classy
 the point: Out-of-the-box Jekyll falls short of building a first-class blog engine. With a little work you can bend it to your will.
 ---
+
+{% image classy.jpg %}
+  title: "classy dude" by jonthor6
+  link: http://www.flickr.com/photos/jonthor6/5548240797/
+{% endimage %}
 
 For some time now I've been hearing fellow dweebs sing the praises of [Jekyll](http://github.com/mojombo/jekyll), a static HTML generator built in Ruby. There's clearly lots to love in Jekyll for the programmer-blogger. Creating your own HTML layouts is simple as Jekyll mostly stays out of your way (compare to customizing a Wordpress layout, for instance). It's well-suited towards putting your entire blog, posts and all, into source control. The output is just static HTML, so you can deploy to just about any web server known to man.
 
 Out-of-the-box Jekyll comes without many of the frills that make for a compelling blog and a pleasant reading experience, however. A quick glance through some of [the sites powered by Jekyll](http://github.com/mojombo/jekyll/wiki/Sites) prove that it's very easy to write a blog with Jekyll, but it's harder to read one.
 
-You'd be mistaken to walk away from Jekyll though. Jekyll is an ultra-lightweight framework that is malleable by design. With just a little bit of elbow grease (or by just [looking at someone else's work](http://github.com/citizenparker/incrediblog), you can mould it into precisely what suits your needs and still have done less work than it takes to make your own Wordpress theme. I'll show you a few of the things I've done and hopefully give you the confidence to start building your own Jekyll hacks.
+You'd be mistaken to walk away from Jekyll though. Jekyll is an ultra-lightweight framework that is malleable by design. With just a little bit of elbow grease (or by just [looking at someone else's work](http://github.com/citizenparker/incrediblog)), you can mould it into precisely what suits your needs and still have done less work than it takes to make your own Wordpress theme. I'll show you a few of the things I've done and hopefully give you the confidence to start building your own Jekyll hacks.
 
 I'm going to dive into each of the following "neat" things I did and show the accompanying source. All of this comes from my publicly available [Github repo 'Incrediblog'](http://github.com/citizenparker/incrediblog) that contains the full source (with posts) to this site.
 
@@ -25,23 +30,23 @@ Let's go!
 
 ## RSS
 
-> To use this, just place [rss.xml](http://github.com/citizenparker/incrediblog/master/rss.xml) in the root directory of your Jekyll installation and modify it appropriately for your own page.
+> To use this, just place [rss.xml](http://github.com/citizenparker/incrediblog/raw/master/rss.xml) in the root directory of your Jekyll installation and modify it appropriately for your own page.
 
 Jekyll doesn't have any RSS support out of the box for generating a feed, so this was the first thing I decided to create. Thankfully you have the tools to build what you need. Jekyll will process and convert any file that doesn't begin with an underscore. The assumption is that most of these files will be HTML or converted into HTML. However, there's nothing stopping you from making your own "rss.xml" file that Jekyll will process and make dynamic.
 
-Once you realize that, building the RSS file is straightforward. I started looking at the RSS specifications and writing my own, but that's much more painful than it needs to be. I recommend looking at the [coyled.com rss.xml](http://github.com/coyled/coyled.com/master/rss.xml) and stealing his work. You can also take a look at [my rss.xml](http://github.com/citizenparker/incrediblog/master/rss.xml) which is based on his work.
+Once you realize that, building the RSS file is straightforward. I started looking at the RSS specifications and writing my own, but that's much more painful than it needs to be. I recommend looking at the [coyled.com rss.xml](http://github.com/coyled/coyled.com/blob/master/rss.xml) and starting from there. You can also take a look at [my rss.xml](http://github.com/citizenparker/incrediblog/master/rss.xml) which is based on his work.
 
 <a id='pagination'></a>
 
 ## Pagination
 
-A common pattern with Jekyll blogs is that the index page consists only of links to other articles and posts on the site. That's very un-blog-like and will give you a pretty decent [bounce rate](http://tbd) on your home page. I want the latest and greatest articles to be shown in full, but I only want to show a few at once.
+A common pattern with Jekyll blogs is that the home page consists only of links to other articles and posts on the site. That's very un-blog-like and not the greatest reading experience. I want the latest and greatest articles to be shown in full, but I only want to show a few at once.
 
 I need pagination!
 
-Jekyll provides the components you'll need for this feature - you just have to put them together. Just add something like {% inline_syntax paginate: 5 %} to your _config.yml to enable pagination. Once this is done, you'll see that Jekyll will generate an {% inline_syntax index.html %} as well as a {% inline_syntax /pageX/index.html %} for each page of your index.
+Jekyll provides the components you'll need for this feature - you just need to assemble them. Just add something like {% inline_syntax paginate: 5 %} to your _config.yml to enable pagination. Once this is done, you'll see that Jekyll will generate an {% inline_syntax index.html %} as well as a {% inline_syntax /pageX/index.html %} for each page of your index.
 
-Next, you just need to combine the [Jekyll Template Data](http://github.com/mojombo/jekyll/wiki/Template_Data) with some [Liquid syntax](http://tbd) to build out the "Next Page / Previous Page" links. Here's an example from my index.html:
+Next, you just need to combine the [Jekyll Template Data](https://github.com/mojombo/jekyll/wiki/Template-Data) with some [Liquid syntax](http://info.getcashboard.com/topics/liquid_basics) to build out the "Next Page / Previous Page" links. Here's an example from my index.html:
 
 {% syntax html https://github.com/citizenparker/incrediblog/raw/master/index.htm %}
 <section id="paging">
@@ -67,7 +72,7 @@ The only tricky part is that you have to check to see if you're linking back to 
 
 ## Image Posting
 
-> To use this, just place [image_block.rb](http://github.com/citizenparker/incrediblog/master/_plugins/image_block.rb) in your {% inline_syntax /_plugins %} directory.
+> To use this, just place [image_block.rb](http://github.com/citizenparker/incrediblog/raw/master/_plugins/image_block.rb) in your {% inline_syntax /_plugins %} directory.
 
 One of the reasons I'm sweet on Jekyll is that it lets me write my posts in Textile or Markdown, but they both have a fairly human-unfriendly syntax for embedding images, let alone images that link to URLs or have sensible "title" and "alt" attributes.
 
@@ -96,9 +101,9 @@ A few notes about this. All of my images would be in the same directory {% inlin
 
 > To use, just place that file in your {% inline_syntax /_plugins %} directory, and make sure you have ImageMagick and the MiniMagick gems installed.
 
-If you remember one thing about me, it's this: I'm a classy dude [^2]. I want my blog to be classy too, and so that means watermarking all the images I post with my website.
+If you remember one thing about me, it's this: I'm a classy dude[^2]. I want my blog to be classy too, and so that means watermarking all the images I post with my website.
 
-Thankfully [ImageMagick](http://tbd) and the [MiniMiagick gem](http://tbd) make this pretty easy. This means I need a [Jekyll Generator](http://github.com/mojombo/jekyll/wiki/Generator) - a plugin that creates static files for the site. NOTE: because of [this bug](http://??) in the latest version of Jekyll, you'll also need to include a hack to prevent Jekyll from removing all those generated files. You can grab mine at [http://github.com/citizenparker/incrediblog/raw/master/_plugins/generator_hack.rb](http://github.com/citizenparker/incrediblog/raw/master/_plugins/generator_hack.rb)
+Thankfully [ImageMagick](http://www.imagemagick.org/) and the [MiniMiagick gem](https://github.com/probablycorey/mini_magick) make this pretty easy. This means I need a [Jekyll Generator](https://github.com/mojombo/jekyll/wiki/Plugins) - a plugin that creates static files for the site. NOTE: because of [this bug](https://github.com/mojombo/jekyll/issues/268) in the latest version of Jekyll, you'll also need to include a hack to prevent Jekyll from removing all those generated files. You can grab mine at [http://github.com/citizenparker/incrediblog/raw/master/_plugins/generator_hack.rb](http://github.com/citizenparker/incrediblog/raw/master/_plugins/generator_hack.rb)
 
 From there, it's a simple two-step process to start watermarking the images. First, I use [this shell script](http://github.com/citizenparker/incrediblog/raw/master/_images/support/regen_stamp.sh) to create the watermark image ("spparker.com" in this case.)
 
@@ -113,7 +118,7 @@ Then I created this generator plugin to stamp each file in {% inline_syntax _ima
 
 Obviously, my blog is poised to set the world aflame. All of that enthusiasm and passion will go to waste though if people can't reach out to me and let me know how much my work has personally moved them and their families. A "Contact" page was in order.
 
-Obviously, this is a tall order for a static HTML generator to handle. After reading [this post](http://tbd) I decided to build a light-weight Sinatra app and some Javascript trickery to send emails that the static HTML pages will POST to.
+This is a tall order for a static HTML generator to handle. After reading [this gist](https://gist.github.com/463598) I decided to build a similar light-weight Sinatra app and some Javascript trickery to send emails that the static HTML pages will POST to.
 
 Here's the Sinatra app in full:
 
@@ -126,11 +131,11 @@ There's really not much to it. The contact page then just checks for the "succes
 
 ## Duostack Hosting
 
-At this point we're done tweaking Jekyll to suit our needs. The last bit of "neat" was setting this up to run on [Duostack](http://www.dupstack.com), a Ruby[^3] cloud-hosting inspired by Heroku that hides all of the nastiness involved in administering a server. Thanks to the [rack-jekyll gem](http://tbd) this is pretty straightforward.
+At this point we're done tweaking Jekyll to suit our needs. The last bit of "neat" was setting this up to run on [Duostack](http://www.dupstack.com), a Ruby[^3] cloud-hosting inspired by Heroku that hides all of the nastiness involved in administering a server. I'd been itching to try it for awhile and this gave me a semi-reasonable way to do so. Thanks to the [rack-jekyll gem](https://github.com/bry4n/rack-jekyll) this is pretty straightforward.
 
 All I needed was this config.ru Rackup file:
 
-{% syntax ruby http://github.com/citizenparker/incrediblog/master/config.ru %}
+{% syntax ruby https://github.com/citizenparker/incrediblog/raw/master/config.ru %}
 {% endsyntax %}
 
 (Note that "use Emailer" is the call to the [Sinatra app](#contact) I built to power the Contact page)
@@ -150,6 +155,6 @@ I'm sure at least a few of these customizations aren't for you, or may need some
 
 [^1]: If you find a way around that, please [contact me](/contact). I hate the {% inline_syntax block_contents %} method.
 
-[^2]: I am writing this in a orange stocking cap and [this t-shirt](http://linktoreadingthisshitiscrazy).
+[^2]: I am writing this in a orange stocking cap and [this t-shirt](http://www.topatoco.com/merchant.mvc?Screen=PROD&Store_Code=TO&Product_Code=BEAT-READING&Category_Code=BEAT).
 
 [^3]: And node.js too.
