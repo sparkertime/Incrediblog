@@ -39,7 +39,7 @@ module Jekyll
     end
 
     def image_url
-      "/images/#{@image_name}"
+      "http://spparker.com/images/#{@image_name}"
     end
 
     def link?

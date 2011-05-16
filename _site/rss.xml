@@ -7,8 +7,8 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Thu, 12 May 2011 18:55:40 CDT</pubDate>
-    <lastBuildDate>Thu, 12 May 2011 18:55:40 CDT</lastBuildDate>
+    <pubDate>Mon, 16 May 2011 09:14:41 CDT</pubDate>
+    <lastBuildDate>Mon, 16 May 2011 09:14:41 CDT</lastBuildDate>
 
     
       <item>
@@ -17,7 +17,7 @@
         <pubDate>Tue, 26 Apr 2011 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/keeping-jekyll-classy</guid>
-        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/jonthor6/5548240797/&quot;&gt;&lt;img src=&quot;/images/classy.jpg&quot; title=&quot;&amp;quot;classy dude&amp;quot; by jonthor6&quot; alt=&quot;&amp;quot;classy dude&amp;quot; by jonthor6&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/jonthor6/5548240797/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/classy.jpg&quot; title=&quot;&amp;quot;classy dude&amp;quot; by jonthor6&quot; alt=&quot;&amp;quot;classy dude&amp;quot; by jonthor6&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;For some time now I&amp;rsquo;ve been hearing fellow dweebs sing the praises of &lt;a href=&quot;http://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt;, a static HTML generator built in Ruby. There&amp;rsquo;s clearly lots to love in Jekyll for the programmer-blogger. Creating your own HTML layouts is simple as Jekyll mostly stays out of your way (compare to customizing a Wordpress layout, for instance). It&amp;rsquo;s well-suited towards putting your entire blog, posts and all, into source control. The output is just static HTML, so you can deploy to just about any web server known to man.&lt;/p&gt;
 
@@ -322,7 +322,7 @@
         <pubDate>Tue, 24 Nov 2009 00:00:00 CST</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/the-day-to-day</guid>
-        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/denisecarbonell/3923601326/&quot;&gt;&lt;img src=&quot;/images/tools.jpg&quot; title=&quot;&amp;quot;the tools from maine&amp;quot; by denisecarbonell&quot; alt=&quot;&amp;quot;the tools from maine&amp;quot; by denisecarbonell&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/denisecarbonell/3923601326/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/tools.jpg&quot; title=&quot;&amp;quot;the tools from maine&amp;quot; by denisecarbonell&quot; alt=&quot;&amp;quot;the tools from maine&amp;quot; by denisecarbonell&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Scott Koon recently wrote a great article, &lt;a href=&quot;http://www.lazycoder.com/weblog/2009/11/23/pros-dont-make-do/&quot;&gt;Pros Don’t Make Do&lt;/a&gt;. Scott argues that in order to be a true professional, you have to use the right tool for the job.&lt;/p&gt;
 
@@ -352,7 +352,7 @@
         <pubDate>Mon, 28 Sep 2009 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/spray-and-pray-developer-resumes</guid>
-        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/psd/3055756907/&quot;&gt;&lt;img src=&quot;/images/resume.jpg&quot; title=&quot;&amp;quot;TiddlyRésumé&amp;quot; by psd&quot; alt=&quot;&amp;quot;TiddlyRésumé&amp;quot; by psd&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/psd/3055756907/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/resume.jpg&quot; title=&quot;&amp;quot;TiddlyRésumé&amp;quot; by psd&quot; alt=&quot;&amp;quot;TiddlyRésumé&amp;quot; by psd&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I interview a fair amount of software developers (although not as often as I used to, sadly), and so I have people ask me about a variety of issues related to finding programming gigs. What certifications, what schools, what questions to ask, and even what attire to wear.&lt;/p&gt;
 
