@@ -7,9 +7,31 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Mon, 16 May 2011 09:14:41 CDT</pubDate>
-    <lastBuildDate>Mon, 16 May 2011 09:14:41 CDT</lastBuildDate>
+    <pubDate>Sun, 12 Jun 2011 17:31:44 CDT</pubDate>
+    <lastBuildDate>Sun, 12 Jun 2011 17:31:44 CDT</lastBuildDate>
 
+    
+      <item>
+        <title>Planning to Plan</title>
+        <link>http://www.spparker.com/posts/2011-06-12-on-making-plans</link>
+        <pubDate>Sun, 12 Jun 2011 00:00:00 CDT</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://www.spparker.com/posts/on-making-plans</guid>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.amazon.com/You-will-moon-Blacker-Freeman/dp/0394823400&quot;&gt;&lt;img src=&quot;http://spparker.com/images/to_the_moon.jpg&quot; title=&quot;&amp;quot;You Will Go To The Moon&amp;quot;&quot; alt=&quot;&amp;quot;You Will Go To The Moon&amp;quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The last plan for my career led me to dropping out of a PhD program rather spectacularly. Ever since I&amp;rsquo;ve unconsciously avoided such long-term plans and instead focused on whatever interested me at the moment. This strategic lack of strategy has been incredibly successful so far and brought me some &lt;a href=&quot;http://www.obtiva.com/culture&quot;&gt;very&lt;/a&gt; &lt;a href=&quot;http://www.groupon.com&quot;&gt;good&lt;/a&gt; &lt;a href=&quot;http://groups.google.com/group/chisc&quot;&gt;things&lt;/a&gt;. Strangely, it also helps in identifying opportunities, as some things are easier to see when you&amp;rsquo;re not looking for them.&lt;/p&gt;
+
+&lt;p&gt;In other words, avoiding any definite long-term plans has been a very good plan so far.&lt;/p&gt;
+
+&lt;p&gt;The problem with interests is that they have an awful tendency to lead to ideas, and those ideas to plans. That&amp;rsquo;s where I find myself now. For some time, I&amp;rsquo;ve been interested in all the ways software organizations react to change. Change in their growth, in their mission, or in their structure. It&amp;rsquo;s something we developers seem to think about without really grasping how these fundamental organizational strategies impact our success on a daily basis.&lt;/p&gt;
+
+&lt;p&gt;So this is a topic that interests me, and one wherein there&amp;rsquo;s a good amount of opportunity to be found. We&amp;rsquo;ll see where this takes me, but I think it&amp;rsquo;s safe to say some plans are coming together.&lt;/p&gt;
+
+&lt;p&gt;Wierd!&lt;/p&gt;
+
+&lt;p&gt;-SP&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>Keeping Jekyll Classy</title>
@@ -145,7 +167,7 @@
     &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;image_url&lt;/span&gt;
-      &lt;span class=&quot;s2&quot;&gt;&amp;quot;/images/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@image_name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;s2&quot;&gt;&amp;quot;http://spparker.com/images/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@image_name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;link?&lt;/span&gt;
