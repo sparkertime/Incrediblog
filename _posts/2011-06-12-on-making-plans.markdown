@@ -17,6 +17,6 @@ The problem with interests is that they have an awful tendency to lead to ideas,
 
 So this is a topic that interests me, and one wherein there's a good amount of opportunity to be found. We'll see where this takes me, but I think it's safe to say some plans are coming together.
 
-Wierd!
+Weird!
 
 -SP
