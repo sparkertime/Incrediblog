@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ChiSC Meeting - 7/20 - "Processes & Plans"
+title: ChiSC Meeting - 7/20 - "Processes & Patterns"
 ---
 
 **We're in need of a venue for this meeting - if your know of a place in the Loop that could help, please [contact me](/contact)**
