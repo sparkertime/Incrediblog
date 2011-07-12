@@ -15,6 +15,8 @@ Then we'll switch gears and go through a group exercise on understanding why you
 
 Food and socialization will begin at 6PM on Wednesday, July 20th, and we'll the start the meeting a bit after that. Once we're done, we'll wander on down the street to socialize and intoxify.
 
+If you're interested, [please RSVP here](http://chisc.gathers.us/events/chicago-software-craftsmanship-processes-patterns).
+
 **Both portions be interactive, so please come ready to participate.**
 
 To stay informed on what's happening with ChiSC, please join the mailing list at [http://groups.google.com/group/chisc](http://groups.google.com/group/chisc)
