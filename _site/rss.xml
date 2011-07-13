@@ -7,9 +7,29 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Mon, 11 Jul 2011 22:26:55 CDT</pubDate>
-    <lastBuildDate>Mon, 11 Jul 2011 22:26:55 CDT</lastBuildDate>
+    <pubDate>Wed, 13 Jul 2011 09:21:20 CDT</pubDate>
+    <lastBuildDate>Wed, 13 Jul 2011 09:21:20 CDT</lastBuildDate>
 
+    
+      <item>
+        <title>LMAX to the Max</title>
+        <link>http://www.spparker.com/posts/2011-07-13-lmax</link>
+        <pubDate>Wed, 13 Jul 2011 00:00:00 CDT</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://www.spparker.com/posts/lmax</guid>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/visentico/4622980574/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/tilt-shift-garden.jpg&quot; title=&quot;&amp;quot;Powerscourt : Tiltshift&amp;quot; by Visentico / Sento&quot; alt=&quot;&amp;quot;Powerscourt : Tiltshift&amp;quot; by Visentico / Sento&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Last night I spent some time to dig into this fascinating article by Martin Fowler on &lt;a href=&quot;http://martinfowler.com/articles/lmax.html&quot;&gt;the LMAX platform&lt;/a&gt;. You should get yourself a nice long chunk of time and read it, really.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s an incredible project, one that audaciously challenges many long-held assumptions about how to build software in our modern age. It&amp;rsquo;s the product of an incredible team who truly distilled their requirements into an incredible platform.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s awe-inspiring. One of the best articles I&amp;rsquo;ve read in a long time. Someday, I&amp;rsquo;ll be in the opportunity and have the technical expertise to help build something like that. It will be great, and I hope you&amp;rsquo;re there too.&lt;/p&gt;
+
+&lt;p&gt;Seriously, &lt;a href=&quot;http://martinfowler.com/articles/lmax.html&quot;&gt;go read it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;-SP&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>ChiSC Meeting - 7/20 - "Processes & Patterns"</title>

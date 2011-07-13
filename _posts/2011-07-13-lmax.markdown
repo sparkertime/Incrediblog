@@ -1,0 +1,19 @@
+---
+layout: post
+title: LMAX to the Max
+---
+
+{% image tilt-shift-garden.jpg %}
+	title: "Powerscourt : Tiltshift" by Visentico / Sento
+	link: http://www.flickr.com/photos/visentico/4622980574/
+	{% endimage %}
+
+Last night I spent some time to dig into this fascinating article by Martin Fowler on [the LMAX platform](http://martinfowler.com/articles/lmax.html). You should get yourself a nice long chunk of time and read it, really.
+
+It's an incredible project, one that audaciously challenges many long-held assumptions about how to build software in our modern age. It's the product of an incredible team who truly distilled their requirements into an incredible platform.
+
+It's awe-inspiring. One of the best articles I've read in a long time. Someday, I'll be in the opportunity and have the technical expertise to help build something like that. It will be great, and I hope you're there too.
+
+Seriously, [go read it](http://martinfowler.com/articles/lmax.html).
+
+-SP
