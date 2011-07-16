@@ -19,7 +19,7 @@ layout: nil
         <link>http://www.spparker.com{{ post.url }}</link>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %Z" }}</pubDate>
         <author>Scott Parker</author>
-        <guid>http://www.spparker.com{{ post.id }}</guid>
+        <guid>http://www.spparker.com{{ post.url }}</guid>
         <description>{{ post.content | xml_escape }}</description>
       </item>
     {% endfor %}

@@ -17,3 +17,5 @@ It's awe-inspiring. One of the best articles I've read in a long time. Someday, 
 Seriously, [go read it](http://martinfowler.com/articles/lmax.html).
 
 -SP
+
+**Update** - Turns out that a decent chunk of that project has been open sourced. You can look at the [disruptor code here](http://code.google.com/p/disruptor/).
