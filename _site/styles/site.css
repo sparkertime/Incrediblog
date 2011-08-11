@@ -152,6 +152,10 @@ a:hover, a:active {
   font-size: 0.8em;
 }
 
+.footnotes {
+  font-size: 0.8em;
+}
+
 .divider {
   border-bottom: 1px dashed #cccccc;
   width: 300px;
