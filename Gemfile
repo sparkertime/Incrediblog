@@ -1,6 +1,6 @@
 source :rubygems
 
-gem "duostack"
+gem "heroku"
 gem "haml"
 gem "hpricot"
 gem "httparty"
