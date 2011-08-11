@@ -18,4 +18,4 @@ Bringers of light will never go out of fashion, but the demand for people with s
 
 -SP
 
-[^1]: Especially if your stick is called Silverlight, but others [have written about](http://www.riagenic.com/archives/622) and [parodied](http://www.youtube.com/watch?v=RRFiu0xfQzw) that topic better than I can.
+[^1]: Especially for my friends who call their stick Silverlight, but others [have written about](http://www.riagenic.com/archives/622) and [parodied](http://www.youtube.com/watch?v=RRFiu0xfQzw) that topic better than I can.
