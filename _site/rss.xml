@@ -7,9 +7,39 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Thu, 11 Aug 2011 08:40:26 CDT</pubDate>
-    <lastBuildDate>Thu, 11 Aug 2011 08:40:26 CDT</lastBuildDate>
+    <pubDate>Sat, 20 Aug 2011 16:33:49 CDT</pubDate>
+    <lastBuildDate>Sat, 20 Aug 2011 16:33:49 CDT</lastBuildDate>
 
+    
+      <item>
+        <title>MadisonRuby Miscellanea</title>
+        <link>http://www.spparker.com/posts/2011-08-20-madison-ruby-miscellanea</link>
+        <pubDate>Sat, 20 Aug 2011 00:00:00 CDT</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://www.spparker.com/posts/2011-08-20-madison-ruby-miscellanea</guid>
+        <description>&lt;p&gt;&lt;a href=&quot;http://twip.us/photos/madison-ruby-2011/1a57477a&quot;&gt;&lt;img src=&quot;http://spparker.com/images/rock_spar.jpg&quot; title=&quot;Courtesy of Twip.us&quot; alt=&quot;Courtesy of Twip.us&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Just wanted to take a moment and capture some random thoughts about MadisonRuby.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thanks everyone&lt;/strong&gt; who came to my talk today at &lt;a href=&quot;http://madisonruby.org&quot;&gt;MadisonRuby&lt;/a&gt;. This has been a tremendous conference so far and I&amp;rsquo;m honored to be a part of it. Slides for my talk, &amp;ldquo;Building the Great Wall: API Driven Applications&amp;rdquo; are available at &lt;a href=&quot;http://great-wall.heroku.com&quot;&gt;great-wall.heroku.com&lt;/a&gt;. If you have any follow-up questions about that talk, I&amp;rsquo;d love to continue the conversation. Feel free to &lt;a href=&quot;/contact&quot;&gt;contact me&lt;/a&gt; or &lt;a href=&quot;http://twitter.com/citizenparker&quot;&gt;find me on Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Madison is&lt;/strong&gt; perhaps the loveliest town I&amp;rsquo;ve ever been to. Although I&amp;rsquo;m not sure I get the whole cheese thing. I&amp;rsquo;ve spent a fair amount of time elsewhere in Wisconsin and so I&amp;rsquo;m familiar with cheesemania. However, Madison takes this to a whole new level. My heart no longer pumps but instead goes &amp;ldquo;squelch&amp;rdquo; every so often.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Special moments&lt;/strong&gt; abound at this conference. It&amp;rsquo;s an incredible conference with a special ethos - lots of hugs and affection everywhere. At times I get exhausted by the opinionated and gifted warriors within the Ruby community that I forget there&amp;rsquo;s special connections everywhere. I&amp;rsquo;ve included some of my favorites below courtesy of &lt;a href=&quot;http://twip.us/photos/madison-ruby-2011&quot;&gt;twip.us&lt;/a&gt;, but I want to make sure I thank the organizers for putting this together. It&amp;rsquo;s such a marvelous experience, thanks guys. &lt;a href=&quot;http://twitter.com/#!/jremsikjr&quot;&gt;Big Tiger&lt;/a&gt; in particular, you&amp;rsquo;ve been totally awesome. I am in your debt.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twip.us/photos/madison-ruby-2011/aafec1ba&quot;&gt;&lt;img src=&quot;http://spparker.com/images/mr_improv.jpg&quot; title=&quot;MadisonRuby introductory improv session - Courtesy of Twip.us&quot; alt=&quot;MadisonRuby introductory improv session - Courtesy of Twip.us&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twip.us/photos/madison-ruby-2011/c2b31a95&quot;&gt;&lt;img src=&quot;http://spparker.com/images/mr_neat_hacks.jpg&quot; title=&quot;Courtesy of Twip.us&quot; alt=&quot;Courtesy of Twip.us&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twip.us/photos/madison-ruby-2011/70dd0924&quot;&gt;&lt;img src=&quot;http://spparker.com/images/mr_world.jpg&quot; title=&quot;Courtesy of Twip.us&quot; alt=&quot;Courtesy of Twip.us&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twip.us/photos/madison-ruby-2011/e27d57a8&quot;&gt;&lt;img src=&quot;http://spparker.com/images/mr_magic_carpet.jpg&quot; title=&quot;Courtesy of Twip.us&quot; alt=&quot;Courtesy of Twip.us&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twip.us/photos/madison-ruby-2011/cf0f2863&quot;&gt;&lt;img src=&quot;http://spparker.com/images/mr_coworkers.jpg&quot; title=&quot;Courtesy of Twip.us&quot; alt=&quot;Courtesy of Twip.us&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;-SP&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>Keeping the Lights On</title>
