@@ -16,7 +16,7 @@ Just wanted to take a moment and capture some random thoughts about MadisonRuby.
 
 **Special moments** abound at this conference. It's an incredible conference with a special ethos - lots of hugs and affection everywhere. Sometimes I forget there's special connections everywhere in the Ruby community.  It's such a marvelous experience, thanks guys. [Big Tiger](http://twitter.com/#!/jremsikjr) in particular, you've been totally awesome. I am in your debt for these moments.
 
-**I've included** some of my favorite MadisonRuby moments below courtesy of [twip.us](http://twip.us) - you can view their entire [MadisonRuby collection here](/photos/madison-ruby-2011).
+**I've included** some of my favorite MadisonRuby moments below courtesy of [twip.us](http://twip.us) - you can view their entire [MadisonRuby collection here](http://twip.us/madison-ruby-2011).
 
 {% image mr_improv.jpg %}
   title: MadisonRuby introductory improv session - Courtesy of Twip.us
