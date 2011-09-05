@@ -17,4 +17,7 @@ HTTP is an imperfect mechanism for answering those questions. Ideally we could e
 
 The first is typically solved by various ways of associating users with sessions. The second is almost always solved by the URL. In other words, we take an HTTP request for something like "POST /users/4/delete" and understand this to mean "I am trying to delete the user called 4"
 
-This is the best we can do in the server, but we should not mistake this for the best we can do period.
+This is the best we can do in the server, but we should not mistake this for the best we can do in any situation.
+
+## Routes = State
+
