@@ -7,8 +7,8 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Tue, 08 Nov 2011 23:01:30 EST</pubDate>
-    <lastBuildDate>Tue, 08 Nov 2011 23:01:30 EST</lastBuildDate>
+    <pubDate>Tue, 08 Nov 2011 23:27:49 EST</pubDate>
+    <lastBuildDate>Tue, 08 Nov 2011 23:27:49 EST</lastBuildDate>
 
     
       <item>
@@ -21,23 +21,24 @@
 
 &lt;p&gt;I&amp;rsquo;m here in beautiful Raleigh, North Carolina for the second annual &lt;a href=&quot;http://tbd&quot;&gt;Clojure/conj&lt;/a&gt; conference. While the conference has yet to start, the training is underway and I wanted to capture some fairly random thoughts from it:&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Rainbows&lt;/strong&gt; - There&amp;rsquo;s an incredible mix of programmer stereotypes present in the training. Unix wizard neckbeards, gray hair &amp;ldquo;industrial / machinery&amp;rdquo; programmers, mainframe masters, mathematicians, and of course some of my fellow hepcat Ruby/Python slingers. Allow me to flagrantly make a broad generalization based on a small sampling of unfair stereotypes. I think this really speaks to the potentially wide appeal of a language like Clojure. Very interesting.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Whither F#?&lt;/strong&gt; - I frequently sigh and think fondly of F#. It had a five year headstart on Clojure, and yet there&amp;rsquo;s no community for F# by comparison. It&amp;rsquo;s a shame - I think it&amp;rsquo;s a great choice for nearly any .NET project, but Microsoft continues to position it as a niche language only to be used for hard problems or math-intensive applications. Since the .NET community subsists on officially approved projects and tools from the mothership, that&amp;rsquo;s unlikely to change any time soon. I&amp;rsquo;d still pick Clojure over F# for most anything, but I feel for my .NET brethren who are unknowingly living in the dark ages.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stuart Halloway&lt;/strong&gt; - Getting to listen to Stuart Halloway hold court during the training is golden. He brings such interesting perspectives and opinions, all of which are hard-earned and entertaining to boot. I&amp;rsquo;ve been noting choice bits whenever I hear them:&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;There&amp;rsquo;s an incredible mix of programmer stereotypes present in the training. Unix wizard neckbeards, gray hair &amp;ldquo;industrial / machinery&amp;rdquo; programmers, mainframe masters, mathematicians, and of course some of my fellow hepcat Ruby/Python slingers. Allow me to flagrantly make a broad generalization based on a small sampling of unfair stereotypes. I think this really speaks to the potentially wide appeal of a language like Clojure. Very interesting.&lt;/li&gt;
-  &lt;li&gt;I frequently sigh and think fondly of F#. It had a five year headstart on Clojure, and yet there&amp;rsquo;s no community for F# by comparison. It&amp;rsquo;s a shame - I think it&amp;rsquo;s a great choice for nearly any .NET project, but Microsoft continues to position it as a niche language only to be used for hard problems or math-intensive applications. Since the .NET community subsists on officially approved projects and tools from the mothership, that&amp;rsquo;s unlikely to change any time soon. (For the record though, I&amp;rsquo;m already convinced that Clojure &amp;gt; F#)&lt;/li&gt;
-  &lt;li&gt;Getting to listen to Stuart Halloway hold court during the training is golden. He brings such interesting perspectives and opinions, all of which are hard-earned and entertaining to boot. I&amp;rsquo;ve been noting choice bits whenever I hear them:
-    &lt;ul&gt;
-      &lt;li&gt;&amp;ldquo;The purpose of my training is not fact- or knowledge-transmission, but inspiration-transmission&amp;rdquo;&lt;/li&gt;
-      &lt;li&gt;&amp;ldquo;I&amp;rsquo;m going to let you in on a secret - design patterns are evil.&amp;rdquo; (on why Clojurists don&amp;rsquo;t spend much time worrying about design patterns)&lt;/li&gt;
-      &lt;li&gt;&amp;ldquo;Like all religions, the charismatic leader was great. The followers were the problem.&amp;rdquo; (also on design patterns)&lt;/li&gt;
-      &lt;li&gt;&amp;ldquo;The only good thing to come out of OO was polymorphism.&amp;rdquo;&lt;/li&gt;
-      &lt;li&gt;&amp;ldquo;Scheme is an interesting exercise in austerity.&amp;rdquo;&lt;/li&gt;
-      &lt;li&gt;&amp;ldquo;&amp;lsquo;Easier&amp;rsquo; is a dirty word in the Clojure community&amp;rdquo;&lt;/li&gt;
-      &lt;li&gt;&amp;ldquo;Talking about the world in a functional way is basically impossible, so I won&amp;rsquo;t. I&amp;rsquo;m going to say these functions change values, and we&amp;rsquo;ll all remember that what I mean is that these functions &lt;em&gt;don&amp;rsquo;t&lt;/em&gt; change values, okay?&amp;rdquo;&lt;/li&gt;
-      &lt;li&gt;&amp;ldquo;In an OO language, you have to put a lock on my motion to find my current position. As more and more people observe me, I actually move slower and slower!&amp;rdquo; (on the problems with traditional OO concurrency solutions)&lt;/li&gt;
-      &lt;li&gt;Unrelated, but the &lt;a href=&quot;http://blog.strobecorp.com/?p=304&quot;&gt;Strobe acquisition&lt;/a&gt; by Facebook is interesting. I won&amp;rsquo;t speculate on what that means for Facebook because I&amp;rsquo;m like your grandpa when it comes to that thingamajig. However, I&amp;rsquo;m glad to see Tom Dale and Yehuda Katz opt out of the acquisition and start their own thing. I think that speaks to the golden future ahead for SproutCore, and it would still be my framework of choice for building a rich client at the moment.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&amp;ldquo;The purpose of my training is not fact- or knowledge-transmission, but inspiration-transmission&amp;rdquo;&lt;/li&gt;
+  &lt;li&gt;&amp;ldquo;I&amp;rsquo;m going to let you in on a secret - design patterns are evil.&amp;rdquo; (on why Clojurists don&amp;rsquo;t spend much time worrying about design patterns)&lt;/li&gt;
+  &lt;li&gt;&amp;ldquo;Like all religions, the charismatic leader was great. The followers were the problem.&amp;rdquo; (also on design patterns)&lt;/li&gt;
+  &lt;li&gt;&amp;ldquo;The only good thing to come out of OO was polymorphism.&amp;rdquo;&lt;/li&gt;
+  &lt;li&gt;&amp;ldquo;Scheme is an interesting exercise in austerity.&amp;rdquo;&lt;/li&gt;
+  &lt;li&gt;&amp;ldquo;&amp;lsquo;Easier&amp;rsquo; is a dirty word in the Clojure community&amp;rdquo;&lt;/li&gt;
+  &lt;li&gt;&amp;ldquo;Talking about the world in a functional way is basically impossible, so I won&amp;rsquo;t. I&amp;rsquo;m going to say these functions change values, and we&amp;rsquo;ll all remember that what I mean is that these functions &lt;em&gt;don&amp;rsquo;t&lt;/em&gt; change values, okay?&amp;rdquo;&lt;/li&gt;
+  &lt;li&gt;&amp;ldquo;In an OO language, you have to put a lock on my motion to find my current position. As more and more people observe me, I actually move slower and slower!&amp;rdquo; (on the problems with traditional OO concurrency solutions)&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Unrelated&lt;/strong&gt; - The &lt;a href=&quot;http://blog.strobecorp.com/?p=304&quot;&gt;Strobe acquisition&lt;/a&gt; by Facebook is interesting. I won&amp;rsquo;t speculate on what that means for Facebook because I&amp;rsquo;m like your grandpa when it comes to that thingamajig. However, I&amp;rsquo;m glad to see Tom Dale and Yehuda Katz opt out of the acquisition and start their own thing. I think that speaks to the golden future ahead for SproutCore, and it would still be my framework of choice for building a rich client at the moment.&lt;/p&gt;
 
 &lt;p&gt;-SP&lt;/p&gt;
 </description>
