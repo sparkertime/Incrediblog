@@ -8,7 +8,7 @@ title: (clojure/conj misc)
 	link: http://www.flickr.com/photos/calsidyrose/4925267732/
 {% endimage %}
 
-I'm here in beautiful Raleigh, North Carolina for the second annual [Clojure/conj](http://tbd) conference. While the conference has yet to start, the training is underway and I wanted to capture some fairly random thoughts from it:
+I'm here in beautiful Raleigh, North Carolina for the second annual [Clojure/conj](http://clojure-conj.org/) conference. While the conference has yet to start, the training is underway and I wanted to capture some fairly random thoughts from it:
 
 **Rainbows** - There's an incredible mix of programmer stereotypes present in the training. Unix wizard neckbeards, gray hair "industrial machinery" programmers, mainframe masters, mathematicians, and of course some of my fellow hepcat Ruby/Python slingers. Allow me to flagrantly make a broad generalization based on a small sampling of unfair stereotypes: This speaks to the  very broad appeal of Clojure. Something interesting could be happening in this community.
 

@@ -7,8 +7,8 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Tue, 08 Nov 2011 23:51:40 EST</pubDate>
-    <lastBuildDate>Tue, 08 Nov 2011 23:51:40 EST</lastBuildDate>
+    <pubDate>Tue, 08 Nov 2011 23:55:58 EST</pubDate>
+    <lastBuildDate>Tue, 08 Nov 2011 23:55:58 EST</lastBuildDate>
 
     
       <item>
@@ -19,7 +19,7 @@
         <guid>http://www.spparker.com/posts/2011-11-08-clojureconj-miscellany</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/calsidyrose/4925267732/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/compass.jpg&quot; title=&quot;&amp;quot;Compass Study&amp;quot; by Calsidyrose&quot; alt=&quot;&amp;quot;Compass Study&amp;quot; by Calsidyrose&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;m here in beautiful Raleigh, North Carolina for the second annual &lt;a href=&quot;http://tbd&quot;&gt;Clojure/conj&lt;/a&gt; conference. While the conference has yet to start, the training is underway and I wanted to capture some fairly random thoughts from it:&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m here in beautiful Raleigh, North Carolina for the second annual &lt;a href=&quot;http://clojure-conj.org/&quot;&gt;Clojure/conj&lt;/a&gt; conference. While the conference has yet to start, the training is underway and I wanted to capture some fairly random thoughts from it:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Rainbows&lt;/strong&gt; - There&amp;rsquo;s an incredible mix of programmer stereotypes present in the training. Unix wizard neckbeards, gray hair &amp;ldquo;industrial machinery&amp;rdquo; programmers, mainframe masters, mathematicians, and of course some of my fellow hepcat Ruby/Python slingers. Allow me to flagrantly make a broad generalization based on a small sampling of unfair stereotypes: This speaks to the  very broad appeal of Clojure. Something interesting could be happening in this community.&lt;/p&gt;
 
