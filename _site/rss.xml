@@ -7,14 +7,68 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Sat, 20 Aug 2011 20:30:44 CDT</pubDate>
-    <lastBuildDate>Sat, 20 Aug 2011 20:30:44 CDT</lastBuildDate>
+    <pubDate>Tue, 08 Nov 2011 23:01:30 EST</pubDate>
+    <lastBuildDate>Tue, 08 Nov 2011 23:01:30 EST</lastBuildDate>
 
+    
+      <item>
+        <title>(clojure/conj misc)</title>
+        <link>http://www.spparker.com/posts/2011-11-08-clojureconj-miscellany</link>
+        <pubDate>Tue, 08 Nov 2011 00:00:00 EST</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://www.spparker.com/posts/2011-11-08-clojureconj-miscellany</guid>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/calsidyrose/4925267732/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/compass.jpg&quot; title=&quot;&amp;quot;Compass Study&amp;quot; by Calsidyrose&quot; alt=&quot;&amp;quot;Compass Study&amp;quot; by Calsidyrose&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m here in beautiful Raleigh, North Carolina for the second annual &lt;a href=&quot;http://tbd&quot;&gt;Clojure/conj&lt;/a&gt; conference. While the conference has yet to start, the training is underway and I wanted to capture some fairly random thoughts from it:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There&amp;rsquo;s an incredible mix of programmer stereotypes present in the training. Unix wizard neckbeards, gray hair &amp;ldquo;industrial / machinery&amp;rdquo; programmers, mainframe masters, mathematicians, and of course some of my fellow hepcat Ruby/Python slingers. Allow me to flagrantly make a broad generalization based on a small sampling of unfair stereotypes. I think this really speaks to the potentially wide appeal of a language like Clojure. Very interesting.&lt;/li&gt;
+  &lt;li&gt;I frequently sigh and think fondly of F#. It had a five year headstart on Clojure, and yet there&amp;rsquo;s no community for F# by comparison. It&amp;rsquo;s a shame - I think it&amp;rsquo;s a great choice for nearly any .NET project, but Microsoft continues to position it as a niche language only to be used for hard problems or math-intensive applications. Since the .NET community subsists on officially approved projects and tools from the mothership, that&amp;rsquo;s unlikely to change any time soon. (For the record though, I&amp;rsquo;m already convinced that Clojure &amp;gt; F#)&lt;/li&gt;
+  &lt;li&gt;Getting to listen to Stuart Halloway hold court during the training is golden. He brings such interesting perspectives and opinions, all of which are hard-earned and entertaining to boot. I&amp;rsquo;ve been noting choice bits whenever I hear them:
+    &lt;ul&gt;
+      &lt;li&gt;&amp;ldquo;The purpose of my training is not fact- or knowledge-transmission, but inspiration-transmission&amp;rdquo;&lt;/li&gt;
+      &lt;li&gt;&amp;ldquo;I&amp;rsquo;m going to let you in on a secret - design patterns are evil.&amp;rdquo; (on why Clojurists don&amp;rsquo;t spend much time worrying about design patterns)&lt;/li&gt;
+      &lt;li&gt;&amp;ldquo;Like all religions, the charismatic leader was great. The followers were the problem.&amp;rdquo; (also on design patterns)&lt;/li&gt;
+      &lt;li&gt;&amp;ldquo;The only good thing to come out of OO was polymorphism.&amp;rdquo;&lt;/li&gt;
+      &lt;li&gt;&amp;ldquo;Scheme is an interesting exercise in austerity.&amp;rdquo;&lt;/li&gt;
+      &lt;li&gt;&amp;ldquo;&amp;lsquo;Easier&amp;rsquo; is a dirty word in the Clojure community&amp;rdquo;&lt;/li&gt;
+      &lt;li&gt;&amp;ldquo;Talking about the world in a functional way is basically impossible, so I won&amp;rsquo;t. I&amp;rsquo;m going to say these functions change values, and we&amp;rsquo;ll all remember that what I mean is that these functions &lt;em&gt;don&amp;rsquo;t&lt;/em&gt; change values, okay?&amp;rdquo;&lt;/li&gt;
+      &lt;li&gt;&amp;ldquo;In an OO language, you have to put a lock on my motion to find my current position. As more and more people observe me, I actually move slower and slower!&amp;rdquo; (on the problems with traditional OO concurrency solutions)&lt;/li&gt;
+      &lt;li&gt;Unrelated, but the &lt;a href=&quot;http://blog.strobecorp.com/?p=304&quot;&gt;Strobe acquisition&lt;/a&gt; by Facebook is interesting. I won&amp;rsquo;t speculate on what that means for Facebook because I&amp;rsquo;m like your grandpa when it comes to that thingamajig. However, I&amp;rsquo;m glad to see Tom Dale and Yehuda Katz opt out of the acquisition and start their own thing. I think that speaks to the golden future ahead for SproutCore, and it would still be my framework of choice for building a rich client at the moment.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;-SP&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Great Presentations</title>
+        <link>http://www.spparker.com/posts/2011-10-24-great-presentations</link>
+        <pubDate>Mon, 24 Oct 2011 00:00:00 EDT</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://www.spparker.com/posts/2011-10-24-great-presentations</guid>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/wonderlane/4242150313/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/lightsplosion.jpg&quot; title=&quot;&amp;quot;Thoughts in the future are fresh and unconditioned by anything.&amp;quot; by Wonderlane&quot; alt=&quot;&amp;quot;Thoughts in the future are fresh and unconditioned by anything.&amp;quot; by Wonderlane&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I spent some quality time this weekend digging into a few presentations that I thought I&amp;rsquo;d share with you.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s start with the &lt;a href=&quot;http://confreaks.net/videos/737-rubyconf2011-lightning-talk-let-s-go-to-shibuya-rubyist-lunch-at-tokyo-japan&quot;&gt;Shibuya Rubyist Lunch lightning talk&lt;/a&gt; from RubyConf 2011. It&amp;rsquo;s short, about three minutes, and will set the right tone for what&amp;rsquo;s to come. You can&amp;rsquo;t help but feel joy when you see the enthusiasm of the audience and speaker for one another. This video encapsulates why I love the Ruby community dearly.&lt;/p&gt;
+
+&lt;p&gt;Rich Hickey&amp;rsquo;s talk from Strange Loop 2011, &amp;ldquo;&lt;a href=&quot;http://www.infoq.com/presentations/Simple-Made-Easy&quot;&gt;Simple Made Easy&lt;/a&gt;,&amp;rdquo; is the best presentation I&amp;rsquo;ve seen in years. Rich makes the case that we have abandoned the concept of &amp;ldquo;simple&amp;rdquo; entirely in a slavish pursuit of &amp;ldquo;easy.&amp;rdquo; It&amp;rsquo;s incredibly thought-provoking - see Uncle Bob&amp;rsquo;s follow-up, for instance. It also gives the best context yet for Rich&amp;rsquo;s disregard for testing. Definitely have to watch this sometime - it&amp;rsquo;s already given us a new word, &amp;ldquo;complect.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Also from this year&amp;rsquo;s Strange Loop is Nathan Marz with &lt;a href=&quot;http://www.infoq.com/presentations/Storm&quot;&gt;an overview of the new Storm framework&lt;/a&gt;. This platform for distributed real-time computation looks incredibly promising. I need to dig into this further, but this could potentially solve many different problems I&amp;rsquo;m looking at today. It&amp;rsquo;s not quite the brain-burner that Rich&amp;rsquo;s talk can be, so it makes a wonderful &amp;ldquo;cool-down.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;What about you? Seen any great talks lately? Planning for attending Strange Loop 2012 already?&lt;/p&gt;
+
+&lt;p&gt;-SP&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>MadisonRuby Miscellanea</title>
         <link>http://www.spparker.com/posts/2011-08-20-madison-ruby-miscellanea</link>
-        <pubDate>Sat, 20 Aug 2011 00:00:00 CDT</pubDate>
+        <pubDate>Sat, 20 Aug 2011 00:00:00 EDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-08-20-madison-ruby-miscellanea</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://twip.us/photos/madison-ruby-2011/1a57477a&quot;&gt;&lt;img src=&quot;http://spparker.com/images/rock_spar.jpg&quot; title=&quot;Courtesy of Twip.us&quot; alt=&quot;Courtesy of Twip.us&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -46,7 +100,7 @@
       <item>
         <title>Keeping the Lights On</title>
         <link>http://www.spparker.com/posts/2011-08-11-keeping-the-lights-on</link>
-        <pubDate>Thu, 11 Aug 2011 00:00:00 CDT</pubDate>
+        <pubDate>Thu, 11 Aug 2011 00:00:00 EDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-08-11-keeping-the-lights-on</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/31246066@N04/4246350621/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/street_lamps.jpg&quot; title=&quot;&amp;quot;Light Unto My Path&amp;quot; by Ian Sane&quot; alt=&quot;&amp;quot;Light Unto My Path&amp;quot; by Ian Sane&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -74,7 +128,7 @@
       <item>
         <title>obtiva</title>
         <link>http://www.spparker.com/posts/2011-08-05-obtiva</link>
-        <pubDate>Fri, 05 Aug 2011 00:00:00 CDT</pubDate>
+        <pubDate>Fri, 05 Aug 2011 00:00:00 EDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-08-05-obtiva</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/3336/161072974/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/tunnels.jpg&quot; title=&quot;&amp;quot;Inscope Arch&amp;quot; by Diego3336&quot; alt=&quot;&amp;quot;Inscope Arch&amp;quot; by Diego3336&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -102,7 +156,7 @@
       <item>
         <title>LMAX to the Max</title>
         <link>http://www.spparker.com/posts/2011-07-13-lmax</link>
-        <pubDate>Wed, 13 Jul 2011 00:00:00 CDT</pubDate>
+        <pubDate>Wed, 13 Jul 2011 00:00:00 EDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-07-13-lmax</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/visentico/4622980574/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/tilt-shift-garden.jpg&quot; title=&quot;&amp;quot;Powerscourt : Tiltshift&amp;quot; by Visentico / Sento&quot; alt=&quot;&amp;quot;Powerscourt : Tiltshift&amp;quot; by Visentico / Sento&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -124,7 +178,7 @@
       <item>
         <title>ChiSC Meeting - 7/20 - "Processes & Patterns"</title>
         <link>http://www.spparker.com/posts/2011-07-11-chisc-processes-patterns</link>
-        <pubDate>Mon, 11 Jul 2011 00:00:00 CDT</pubDate>
+        <pubDate>Mon, 11 Jul 2011 00:00:00 EDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-07-11-chisc-processes-patterns</guid>
         <description>&lt;p&gt;&lt;strong&gt;We’re in need of a venue for this meeting - if your know of a place in the Loop that could help, please &lt;a href=&quot;/contact&quot;&gt;contact me&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -153,7 +207,7 @@
       <item>
         <title>Planning to Plan</title>
         <link>http://www.spparker.com/posts/2011-06-12-on-making-plans</link>
-        <pubDate>Sun, 12 Jun 2011 00:00:00 CDT</pubDate>
+        <pubDate>Sun, 12 Jun 2011 00:00:00 EDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-06-12-on-making-plans</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.amazon.com/You-will-moon-Blacker-Freeman/dp/0394823400&quot;&gt;&lt;img src=&quot;http://spparker.com/images/to_the_moon.jpg&quot; title=&quot;&amp;quot;You Will Go To The Moon&amp;quot;&quot; alt=&quot;&amp;quot;You Will Go To The Moon&amp;quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -175,7 +229,7 @@
       <item>
         <title>Keeping Jekyll Classy</title>
         <link>http://www.spparker.com/posts/2011-04-26-keeping-jekyll-classy</link>
-        <pubDate>Tue, 26 Apr 2011 00:00:00 CDT</pubDate>
+        <pubDate>Tue, 26 Apr 2011 00:00:00 EDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-04-26-keeping-jekyll-classy</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/jonthor6/5548240797/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/classy.jpg&quot; title=&quot;&amp;quot;classy dude&amp;quot; by jonthor6&quot; alt=&quot;&amp;quot;classy dude&amp;quot; by jonthor6&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -480,7 +534,7 @@
       <item>
         <title>The Day-to-Day</title>
         <link>http://www.spparker.com/posts/2009-11-24-the-day-to-day</link>
-        <pubDate>Tue, 24 Nov 2009 00:00:00 CST</pubDate>
+        <pubDate>Tue, 24 Nov 2009 00:00:00 EST</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2009-11-24-the-day-to-day</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/denisecarbonell/3923601326/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/tools.jpg&quot; title=&quot;&amp;quot;the tools from maine&amp;quot; by denisecarbonell&quot; alt=&quot;&amp;quot;the tools from maine&amp;quot; by denisecarbonell&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -510,7 +564,7 @@
       <item>
         <title>Spray-and-Pray Developer Resumes</title>
         <link>http://www.spparker.com/posts/2009-09-28-spray-and-pray-developer-resumes</link>
-        <pubDate>Mon, 28 Sep 2009 00:00:00 CDT</pubDate>
+        <pubDate>Mon, 28 Sep 2009 00:00:00 EDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2009-09-28-spray-and-pray-developer-resumes</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/psd/3055756907/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/resume.jpg&quot; title=&quot;&amp;quot;TiddlyRésumé&amp;quot; by psd&quot; alt=&quot;&amp;quot;TiddlyRésumé&amp;quot; by psd&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
