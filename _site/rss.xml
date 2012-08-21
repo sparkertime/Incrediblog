@@ -7,14 +7,39 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Tue, 08 Nov 2011 23:55:58 EST</pubDate>
-    <lastBuildDate>Tue, 08 Nov 2011 23:55:58 EST</lastBuildDate>
+    <pubDate>Tue, 21 Aug 2012 11:10:00 CDT</pubDate>
+    <lastBuildDate>Tue, 21 Aug 2012 11:10:00 CDT</lastBuildDate>
 
+    
+      <item>
+        <title>Goodbye, Groupon</title>
+        <link>http://www.spparker.com/posts/2012-08-21-goodbye-groupon</link>
+        <pubDate>Tue, 21 Aug 2012 00:00:00 CDT</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://www.spparker.com/posts/2012-08-21-goodbye-groupon</guid>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/boyosep/6058510698&quot;&gt;&lt;img src=&quot;http://spparker.com/images/heavens_gate.png&quot; title=&quot;&amp;quot;Cabling Up to Heavens Gate&amp;quot; by Josep Folta&quot; alt=&quot;&amp;quot;Cabling Up to Heavens Gate&amp;quot; by Josep Folta&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Friday was my last day at Groupon. I will remain a tremendously big fan of &lt;a href=&quot;https://engineering.groupon.com/&quot;&gt;Groupon Engineering&lt;/a&gt; and the people that comprise it, but the time was right to move on.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not entirely sure what&amp;rsquo;s next for me. For now, taking some concentrated time off to spend time with my wife, hack on some long-suffering projects, and likely take on some part-time and/or remote work while looking for the &amp;ldquo;next big thing&amp;rdquo; in my life.&lt;/p&gt;
+
+&lt;p&gt;A ridiculous number of great people crossed my path at Groupon over the past years, but I want to thank a few in particular. &lt;a href=&quot;https://twitter.com/ktaylor&quot;&gt;Kevin Taylor&lt;/a&gt; for Obtiva, the first &amp;ldquo;big thing&amp;rdquo; for me and the company that would drastically alter the course of my career. &lt;a href=&quot;http://nuts.redsquirrel.com/post/29464274523/making-a-move&quot;&gt;Dave Hoover&lt;/a&gt;, you continue to be my software and spiritual guru. &lt;a href=&quot;http://kuwayama.com/&quot;&gt;Shinji Kuwayama&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/richievos&quot;&gt;Richie Vos&lt;/a&gt;, for basically being role models to all of Groupon Engineering during my tenure. I want to grow up and be like you.&lt;/p&gt;
+
+&lt;p&gt;I especially want to say thanks to everyone that has been part of my teams. I looked forward to coming into work nearly every day because of you guys. In no particular order, thank you &lt;a href=&quot;https://twitter.com/dcsesq/&quot;&gt;Derrick&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/jonpliske/&quot;&gt;Jon&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/suryagaddipati&quot;&gt;Surya&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/charlotte_w_tan&quot;&gt;Charlotte&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/njackson&quot;&gt;Nate&lt;/a&gt;, &lt;a href=&quot;http://roshfu.com/&quot;&gt;Roshan&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/senorduck/&quot;&gt;Ben&lt;/a&gt;, &lt;a href=&quot;http://www.linkedin.com/pub/kavita-kochar/3/921/216&quot;&gt;Kavita&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/ryanbriones&quot;&gt;Ryan&lt;/a&gt;, &lt;a href=&quot;http://www.linkedin.com/pub/samuel-lopes/35/60b/546&quot;&gt;Sam&lt;/a&gt;, Raphy, and &lt;a href=&quot;http://www.pchristensen.com/blog/&quot;&gt;Peter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Play me out, miners.&lt;/p&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;http://www.youtube.com/embed/R_Rfkhg7s_M?rel=0&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;I expect big things from my friends at Groupon. Don&amp;rsquo;t let me down.
+-SP&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>(clojure/conj misc)</title>
         <link>http://www.spparker.com/posts/2011-11-08-clojureconj-miscellany</link>
-        <pubDate>Tue, 08 Nov 2011 00:00:00 EST</pubDate>
+        <pubDate>Tue, 08 Nov 2011 00:00:00 CST</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-11-08-clojureconj-miscellany</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/calsidyrose/4925267732/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/compass.jpg&quot; title=&quot;&amp;quot;Compass Study&amp;quot; by Calsidyrose&quot; alt=&quot;&amp;quot;Compass Study&amp;quot; by Calsidyrose&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -47,7 +72,7 @@
       <item>
         <title>Great Presentations</title>
         <link>http://www.spparker.com/posts/2011-10-24-great-presentations</link>
-        <pubDate>Mon, 24 Oct 2011 00:00:00 EDT</pubDate>
+        <pubDate>Mon, 24 Oct 2011 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-10-24-great-presentations</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/wonderlane/4242150313/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/lightsplosion.jpg&quot; title=&quot;&amp;quot;Thoughts in the future are fresh and unconditioned by anything.&amp;quot; by Wonderlane&quot; alt=&quot;&amp;quot;Thoughts in the future are fresh and unconditioned by anything.&amp;quot; by Wonderlane&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -69,7 +94,7 @@
       <item>
         <title>MadisonRuby Miscellanea</title>
         <link>http://www.spparker.com/posts/2011-08-20-madison-ruby-miscellanea</link>
-        <pubDate>Sat, 20 Aug 2011 00:00:00 EDT</pubDate>
+        <pubDate>Sat, 20 Aug 2011 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-08-20-madison-ruby-miscellanea</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://twip.us/photos/madison-ruby-2011/1a57477a&quot;&gt;&lt;img src=&quot;http://spparker.com/images/rock_spar.jpg&quot; title=&quot;Courtesy of Twip.us&quot; alt=&quot;Courtesy of Twip.us&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -101,7 +126,7 @@
       <item>
         <title>Keeping the Lights On</title>
         <link>http://www.spparker.com/posts/2011-08-11-keeping-the-lights-on</link>
-        <pubDate>Thu, 11 Aug 2011 00:00:00 EDT</pubDate>
+        <pubDate>Thu, 11 Aug 2011 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-08-11-keeping-the-lights-on</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/31246066@N04/4246350621/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/street_lamps.jpg&quot; title=&quot;&amp;quot;Light Unto My Path&amp;quot; by Ian Sane&quot; alt=&quot;&amp;quot;Light Unto My Path&amp;quot; by Ian Sane&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -129,7 +154,7 @@
       <item>
         <title>obtiva</title>
         <link>http://www.spparker.com/posts/2011-08-05-obtiva</link>
-        <pubDate>Fri, 05 Aug 2011 00:00:00 EDT</pubDate>
+        <pubDate>Fri, 05 Aug 2011 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-08-05-obtiva</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/3336/161072974/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/tunnels.jpg&quot; title=&quot;&amp;quot;Inscope Arch&amp;quot; by Diego3336&quot; alt=&quot;&amp;quot;Inscope Arch&amp;quot; by Diego3336&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -157,7 +182,7 @@
       <item>
         <title>LMAX to the Max</title>
         <link>http://www.spparker.com/posts/2011-07-13-lmax</link>
-        <pubDate>Wed, 13 Jul 2011 00:00:00 EDT</pubDate>
+        <pubDate>Wed, 13 Jul 2011 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-07-13-lmax</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/visentico/4622980574/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/tilt-shift-garden.jpg&quot; title=&quot;&amp;quot;Powerscourt : Tiltshift&amp;quot; by Visentico / Sento&quot; alt=&quot;&amp;quot;Powerscourt : Tiltshift&amp;quot; by Visentico / Sento&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -179,7 +204,7 @@
       <item>
         <title>ChiSC Meeting - 7/20 - "Processes & Patterns"</title>
         <link>http://www.spparker.com/posts/2011-07-11-chisc-processes-patterns</link>
-        <pubDate>Mon, 11 Jul 2011 00:00:00 EDT</pubDate>
+        <pubDate>Mon, 11 Jul 2011 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-07-11-chisc-processes-patterns</guid>
         <description>&lt;p&gt;&lt;strong&gt;We’re in need of a venue for this meeting - if your know of a place in the Loop that could help, please &lt;a href=&quot;/contact&quot;&gt;contact me&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -208,7 +233,7 @@
       <item>
         <title>Planning to Plan</title>
         <link>http://www.spparker.com/posts/2011-06-12-on-making-plans</link>
-        <pubDate>Sun, 12 Jun 2011 00:00:00 EDT</pubDate>
+        <pubDate>Sun, 12 Jun 2011 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-06-12-on-making-plans</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.amazon.com/You-will-moon-Blacker-Freeman/dp/0394823400&quot;&gt;&lt;img src=&quot;http://spparker.com/images/to_the_moon.jpg&quot; title=&quot;&amp;quot;You Will Go To The Moon&amp;quot;&quot; alt=&quot;&amp;quot;You Will Go To The Moon&amp;quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -230,7 +255,7 @@
       <item>
         <title>Keeping Jekyll Classy</title>
         <link>http://www.spparker.com/posts/2011-04-26-keeping-jekyll-classy</link>
-        <pubDate>Tue, 26 Apr 2011 00:00:00 EDT</pubDate>
+        <pubDate>Tue, 26 Apr 2011 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2011-04-26-keeping-jekyll-classy</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/jonthor6/5548240797/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/classy.jpg&quot; title=&quot;&amp;quot;classy dude&amp;quot; by jonthor6&quot; alt=&quot;&amp;quot;classy dude&amp;quot; by jonthor6&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -535,7 +560,7 @@
       <item>
         <title>The Day-to-Day</title>
         <link>http://www.spparker.com/posts/2009-11-24-the-day-to-day</link>
-        <pubDate>Tue, 24 Nov 2009 00:00:00 EST</pubDate>
+        <pubDate>Tue, 24 Nov 2009 00:00:00 CST</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2009-11-24-the-day-to-day</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/denisecarbonell/3923601326/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/tools.jpg&quot; title=&quot;&amp;quot;the tools from maine&amp;quot; by denisecarbonell&quot; alt=&quot;&amp;quot;the tools from maine&amp;quot; by denisecarbonell&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -565,7 +590,7 @@
       <item>
         <title>Spray-and-Pray Developer Resumes</title>
         <link>http://www.spparker.com/posts/2009-09-28-spray-and-pray-developer-resumes</link>
-        <pubDate>Mon, 28 Sep 2009 00:00:00 EDT</pubDate>
+        <pubDate>Mon, 28 Sep 2009 00:00:00 CDT</pubDate>
         <author>Scott Parker</author>
         <guid>http://www.spparker.com/posts/2009-09-28-spray-and-pray-developer-resumes</guid>
         <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/psd/3055756907/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/resume.jpg&quot; title=&quot;&amp;quot;TiddlyRésumé&amp;quot; by psd&quot; alt=&quot;&amp;quot;TiddlyRésumé&amp;quot; by psd&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
