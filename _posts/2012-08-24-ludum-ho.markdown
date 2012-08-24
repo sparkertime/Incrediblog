@@ -7,7 +7,7 @@ title: Ludum, Ho!
   title: Light Table in Action
 {% endimage %}
 
-Huzzah! In roughly 3.5 hours, [Ludum Dare 24](http://www.ludumdare.com/compo/about-ludum-dare/) will begin. I'll be participating again in the loosest sense of the word. As with my entry for LD23, I am going into this deliberately unfamiliar with the frameworks I'll be using. Any ideas you may have about "fun", "playable", or "complete" should be checked at the door.
+Huzzah! In roughly 3.5 hours, [Ludum Dare 24](http://www.ludumdare.com/compo/about-ludum-dare/) will begin. I'll be participating again in the loosest sense of the word. As with [my "game" for LD23](https://github.com/citizenparker/the-two-of-us), I am going into this deliberately unfamiliar with the frameworks I'll be using. Any ideas you may have about "fun", "playable", or "complete" should be checked at the door.
 
 If you have any interest or background in programming, I strongly encourage you to [participate](http://www.ludumdare.com/compo/rules/). If you set aside all goals except "do your best" this is a tremendously fun event. Anyone of any background can participate.
 
