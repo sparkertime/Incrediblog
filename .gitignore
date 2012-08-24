@@ -19,3 +19,4 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 
+.rbenv-gemsets
