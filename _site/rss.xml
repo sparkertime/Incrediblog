@@ -7,9 +7,30 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Tue, 21 Aug 2012 11:34:53 CDT</pubDate>
-    <lastBuildDate>Tue, 21 Aug 2012 11:34:53 CDT</lastBuildDate>
+    <pubDate>Fri, 24 Aug 2012 16:34:59 CDT</pubDate>
+    <lastBuildDate>Fri, 24 Aug 2012 16:34:59 CDT</lastBuildDate>
 
+    
+      <item>
+        <title>Ludum, Ho!</title>
+        <link>http://www.spparker.com/posts/2012-08-24-ludum-ho</link>
+        <pubDate>Fri, 24 Aug 2012 00:00:00 CDT</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://www.spparker.com/posts/2012-08-24-ludum-ho</guid>
+        <description>&lt;p&gt;&lt;img src=&quot;http://spparker.com/images/light_table.png&quot; title=&quot;Light Table in Action&quot; alt=&quot;Light Table in Action&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Huzzah! In roughly 3.5 hours, &lt;a href=&quot;http://www.ludumdare.com/compo/about-ludum-dare/&quot;&gt;Ludum Dare 24&lt;/a&gt; will begin. I&amp;rsquo;ll be participating again in the loosest sense of the word. As with my entry for LD23, I am going into this deliberately unfamiliar with the frameworks I&amp;rsquo;ll be using. Any ideas you may have about &amp;ldquo;fun&amp;rdquo;, &amp;ldquo;playable&amp;rdquo;, or &amp;ldquo;complete&amp;rdquo; should be checked at the door.&lt;/p&gt;
+
+&lt;p&gt;If you have any interest or background in programming, I strongly encourage you to &lt;a href=&quot;http://www.ludumdare.com/compo/rules/&quot;&gt;participate&lt;/a&gt;. If you set aside all goals except &amp;ldquo;do your best&amp;rdquo; this is a tremendously fun event. Anyone of any background can participate.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll be writing my entry in Clojure and libgdx this time around. I&amp;rsquo;m excited for a couple of reasons. First, this will be my first opportunity to play with &lt;a href=&quot;http://app.kodowa.com/&quot;&gt;LightTable&lt;/a&gt; (pictured above) on a real project. Most importantly though, game programming is typically the poster child of mutated state - nearly every element you see when playing a game mutates-in-place over time. I&amp;rsquo;m very curious to see how well or poorly I can translate Clojure to this domain.&lt;/p&gt;
+
+&lt;p&gt;If you want the gory details on my progress, you can find that on &lt;a href=&quot;http://scoopsy.com&quot;&gt;scoopsy.com&lt;/a&gt;. Otherwise I&amp;rsquo;ll post a summary eventually.&lt;/p&gt;
+
+&lt;p&gt;TO THE CODES!
+-SP&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>Goodbye, Groupon</title>

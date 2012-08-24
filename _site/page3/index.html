@@ -37,6 +37,309 @@
         <section id="page-content">
           
   <section class="post">
+  <h2><a href="/posts/2011-04-26-keeping-jekyll-classy">Keeping Jekyll Classy </a></h2>
+    <section class="post-date">Tuesday, April 26, 2011</section>
+    <p><a href="http://www.flickr.com/photos/jonthor6/5548240797/"><img src="http://spparker.com/images/classy.jpg" title="&quot;classy dude&quot; by jonthor6" alt="&quot;classy dude&quot; by jonthor6" /></a></p>
+
+<p>For some time now I&rsquo;ve been hearing fellow dweebs sing the praises of <a href="http://github.com/mojombo/jekyll">Jekyll</a>, a static HTML generator built in Ruby. There&rsquo;s clearly lots to love in Jekyll for the programmer-blogger. Creating your own HTML layouts is simple as Jekyll mostly stays out of your way (compare to customizing a Wordpress layout, for instance). It&rsquo;s well-suited towards putting your entire blog, posts and all, into source control. The output is just static HTML, so you can deploy to just about any web server known to man.</p>
+
+<p>Out-of-the-box Jekyll comes without many of the frills that make for a compelling blog and a pleasant reading experience, however. A quick glance through some of <a href="http://github.com/mojombo/jekyll/wiki/Sites">the sites powered by Jekyll</a> prove that it&rsquo;s very easy to write a blog with Jekyll, but it&rsquo;s harder to read one.</p>
+
+<p>You&rsquo;d be mistaken to walk away from Jekyll though. Jekyll is an ultra-lightweight framework that is malleable by design. With just a little bit of elbow grease (or by just <a href="http://github.com/citizenparker/incrediblog">looking at someone else&rsquo;s work</a>), you can mould it into precisely what suits your needs and still have done less work than it takes to make your own Wordpress theme. I&rsquo;ll show you a few of the things I&rsquo;ve done and hopefully give you the confidence to start building your own Jekyll hacks.</p>
+
+<p>I&rsquo;m going to dive into each of the following &ldquo;neat&rdquo; things I did and show the accompanying source. All of this comes from my publicly available <a href="http://github.com/citizenparker/incrediblog">Github repo &lsquo;Incrediblog&rsquo;</a> that contains the full source (with posts) to this site.</p>
+
+<ul>
+  <li><a href="#rss">RSS</a></li>
+  <li><a href="#pagination">Pagination</a></li>
+  <li><a href="#posting">Image Posting</a></li>
+  <li><a href="#watermarking">Image Watermarking</a></li>
+  <li><a href="#contact">Contact Page</a></li>
+  <li><a href="#duostack">Duostack Hosting</a></li>
+</ul>
+
+<p>Let&rsquo;s go!</p>
+
+<p><a id="rss"></a></p>
+
+<h2 id="rss">RSS</h2>
+
+<blockquote>
+  <p>To use this, just place <a href="http://github.com/citizenparker/incrediblog/raw/master/rss.xml">rss.xml</a> in the root directory of your Jekyll installation and modify it appropriately for your own page.</p>
+</blockquote>
+
+<p>Jekyll doesn&rsquo;t have any RSS support out of the box for generating a feed, so this was the first thing I decided to create. Thankfully you have the tools to build what you need. Jekyll will process and convert any file that doesn&rsquo;t begin with an underscore. The assumption is that most of these files will be HTML or converted into HTML. However, there&rsquo;s nothing stopping you from making your own &ldquo;rss.xml&rdquo; file that Jekyll will process and make dynamic.</p>
+
+<p>Once you realize that, building the RSS file is straightforward. I started looking at the RSS specifications and writing my own, but that&rsquo;s much more painful than it needs to be. I recommend looking at the <a href="http://github.com/coyled/coyled.com/blob/master/rss.xml">coyled.com rss.xml</a> and starting from there. You can also take a look at <a href="http://github.com/citizenparker/incrediblog/master/rss.xml">my rss.xml</a> which is based on his work.</p>
+
+<p><a id="pagination"></a></p>
+
+<h2 id="pagination">Pagination</h2>
+
+<p>A common pattern with Jekyll blogs is that the home page consists only of links to other articles and posts on the site. That&rsquo;s very un-blog-like and not the greatest reading experience. I want the latest and greatest articles to be shown in full, but I only want to show a few at once.</p>
+
+<p>I need pagination!</p>
+
+<p>Jekyll provides the components you&rsquo;ll need for this feature - you just need to assemble them. Just add something like <span class="inline-syntax">paginate: 5 </span> to your _config.yml to enable pagination. Once this is done, you&rsquo;ll see that Jekyll will generate an <span class="inline-syntax">index.html </span> as well as a <span class="inline-syntax">/pageX/index.html </span> for each page of your index.</p>
+
+<p>Next, you just need to combine the <a href="https://github.com/mojombo/jekyll/wiki/Template-Data">Jekyll Template Data</a> with some <a href="http://info.getcashboard.com/topics/liquid_basics">Liquid syntax</a> to build out the &ldquo;Next Page / Previous Page&rdquo; links. Here&rsquo;s an example from my index.html:</p>
+
+<div class="highlight"><pre><span class="nt">&lt;section</span> <span class="na">id=</span><span class="s">&quot;paging&quot;</span><span class="nt">&gt;</span>
+  {&#37; if paginator.previous_page &#37;}
+    {&#37; if paginator.previous_page == 1 &#37;}
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;/&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;lArr;</span> Previous Page<span class="nt">&lt;/a&gt;</span>
+    {&#37; else &#37;}
+      <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;/page&quot;</span><span class="nt">&gt;</span><span class="ni">&amp;lArr;</span> Previous Page<span class="nt">&lt;/a&gt;</span>
+    {&#37; endif &#37;}
+  {&#37; endif &#37;}
+
+  Page {{ paginator.page }} of {{ paginator.total_pages }}
+
+  {&#37; if paginator.next_page &#37;}
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;/page&quot;</span><span class="nt">&gt;</span>Next Page <span class="ni">&amp;rArr;</span><span class="nt">&lt;/a&gt;</span>
+  {&#37; endif &#37;}
+<span class="nt">&lt;/section&gt;</span>
+</pre></div>
+
+<p>The only tricky part is that you have to check to see if you&rsquo;re linking back to the first page, as it will always be <span class="inline-syntax">index.html </span> and not <span class="inline-syntax">/pageX/index.html </span></p>
+
+<p><a id="posting"></a></p>
+
+<h2 id="image-posting">Image Posting</h2>
+
+<blockquote>
+  <p>To use this, just place <a href="http://github.com/citizenparker/incrediblog/raw/master/_plugins/image_block.rb">image_block.rb</a> in your <span class="inline-syntax">/_plugins </span> directory.</p>
+</blockquote>
+
+<p>One of the reasons I&rsquo;m sweet on Jekyll is that it lets me write my posts in Textile or Markdown, but they both have a fairly human-unfriendly syntax for embedding images, let alone images that link to URLs or have sensible &ldquo;title&rdquo; and &ldquo;alt&rdquo; attributes.</p>
+
+<p>I decided to make my own image tag for posts then. Ultimately I wanted a syntax like this:</p>
+
+<div class="highlight"><pre>... blah blah blah yakety smackety ...
+{&#37; image my_cool_image.jpg &#37;}
+  title: This is just a test title.
+  alt: Something descriptive
+  link: http://www.google.com
+{&#37; endimage &#37;}
+ ... and so on ...
+</pre></div>
+
+<p>Neither Jekyll nor Liquid support this out of the box, so this requires a <a href="http://github.com/mojombo/jekyll/wiki/Plugins">Jekyll plugin</a> to add this new Liquid syntax. New tags require you to extend the <span class="inline-syntax">Liquid::Block </span> class and to override the <span class="inline-syntax">def render(context) </span> method. Given that, here&rsquo;s the plugin I ended up writing:</p>
+
+<div class="highlight"><pre><span class="k">module</span> <span class="nn">Jekyll</span>
+  <span class="k">class</span> <span class="nc">ImageBlock</span> <span class="o">&lt;</span> <span class="no">Liquid</span><span class="o">::</span><span class="no">Block</span>
+    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">tag_name</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="n">tokens</span><span class="p">)</span>
+      <span class="k">super</span>
+      <span class="vi">@image_name</span> <span class="o">=</span> <span class="n">filename</span><span class="o">.</span><span class="n">strip</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">render</span><span class="p">(</span><span class="n">context</span><span class="p">)</span>
+      <span class="n">load_options</span> <span class="n">block_contents</span>
+
+      <span class="k">if</span> <span class="n">link?</span>
+        <span class="s2">&quot;&lt;a href=&#39;</span><span class="si">#{</span><span class="n">link_url</span><span class="si">}</span><span class="s2">&#39;&gt;</span><span class="si">#{</span><span class="n">image_tag</span><span class="si">}</span><span class="s2">&lt;/a&gt;&quot;</span>
+      <span class="k">else</span>
+        <span class="n">image_tag</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">image_tag</span>
+      <span class="s2">&quot;&lt;img src=&#39;</span><span class="si">#{</span><span class="n">image_url</span><span class="si">}</span><span class="s2">&#39; title=&#39;</span><span class="si">#{</span><span class="n">title</span><span class="si">}</span><span class="s2">&#39; alt=&#39;</span><span class="si">#{</span><span class="n">alt</span><span class="si">}</span><span class="s2">&#39;&gt;&quot;</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">load_options</span><span class="p">(</span><span class="n">contents</span><span class="p">)</span>
+      <span class="n">contents</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">line</span><span class="o">|</span>
+        <span class="n">variable</span><span class="p">,</span> <span class="n">value</span> <span class="o">=</span> <span class="n">parse_line</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+        <span class="nb">instance_variable_set</span><span class="p">(</span><span class="s2">&quot;@</span><span class="si">#{</span><span class="n">variable</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">block_contents</span>
+      <span class="n">text</span> <span class="o">=</span> <span class="vi">@nodelist</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span>
+      <span class="n">result</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="sr">/\n/</span><span class="p">)</span><span class="o">.</span><span class="n">map</span> <span class="p">{</span><span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="n">x</span><span class="o">.</span><span class="n">strip</span> <span class="p">}</span><span class="o">.</span><span class="n">reject</span> <span class="p">{</span><span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="n">x</span><span class="o">.</span><span class="n">empty?</span> <span class="p">}</span>
+      <span class="n">result</span>
+    <span class="k">end</span>
+
+    <span class="c1"># turn &quot; blah: bloop bleep&quot; into [&quot;blah&quot;, &quot;bloop bleep&quot;]</span>
+    <span class="k">def</span> <span class="nf">parse_line</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+      <span class="n">matches</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sr">/^\s*(\S+):(.*)/</span><span class="p">)</span>
+      <span class="o">[</span><span class="n">matches</span><span class="o">.</span><span class="n">captures</span><span class="o">[</span><span class="mi">0</span><span class="o">]</span><span class="p">,</span> <span class="n">matches</span><span class="o">.</span><span class="n">captures</span><span class="o">[</span><span class="mi">1</span><span class="o">].</span><span class="n">strip</span><span class="o">]</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">image_url</span>
+      <span class="s2">&quot;http://spparker.com/images/</span><span class="si">#{</span><span class="vi">@image_name</span><span class="si">}</span><span class="s2">&quot;</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">link?</span>
+      <span class="o">!</span><span class="n">link_url</span><span class="o">.</span><span class="n">nil?</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">link_url</span>
+      <span class="vi">@link</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">title</span>
+      <span class="vi">@title</span> <span class="o">||</span> <span class="vi">@image_name</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">alt</span>
+      <span class="vi">@alt</span> <span class="o">||</span> <span class="n">title</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="no">Liquid</span><span class="o">::</span><span class="no">Template</span><span class="o">.</span><span class="n">register_tag</span><span class="p">(</span><span class="s1">&#39;image&#39;</span><span class="p">,</span> <span class="no">Jekyll</span><span class="o">::</span><span class="no">ImageBlock</span><span class="p">)</span>
+</pre></div>
+
+<p>A few notes about this. All of my images would be in the same directory <span class="inline-syntax">/images </span> so I didn&rsquo;t want to specify that everywhere. I also wanted every attribute in that Liquid block to be optional. Oh, and <span class="inline-syntax">block_contents </span> is some Liquid black magic that I couldn&rsquo;t find a way around<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+
+<p><a id="watermarking"></a></p>
+
+<h2 id="image-watermarking">Image Watermarking</h2>
+
+<blockquote>
+  <p>To use, just place that file in your <span class="inline-syntax">/_plugins </span> directory, and make sure you have ImageMagick and the MiniMagick gems installed.</p>
+</blockquote>
+
+<p>If you remember one thing about me, it&rsquo;s this: I&rsquo;m a classy dude<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. I want my blog to be classy too, and so that means watermarking all the images I post with my website.</p>
+
+<p>Thankfully <a href="http://www.imagemagick.org/">ImageMagick</a> and the <a href="https://github.com/probablycorey/mini_magick">MiniMiagick gem</a> make this pretty easy. This means I need a <a href="https://github.com/mojombo/jekyll/wiki/Plugins">Jekyll Generator</a> - a plugin that creates static files for the site. NOTE: because of <a href="https://github.com/mojombo/jekyll/issues/268">this bug</a> in the latest version of Jekyll, you&rsquo;ll also need to include a hack to prevent Jekyll from removing all those generated files. You can grab mine at <a href="http://github.com/citizenparker/incrediblog/raw/master/_plugins/generator_hack.rb">http://github.com/citizenparker/incrediblog/raw/master/_plugins/generator_hack.rb</a></p>
+
+<p>From there, it&rsquo;s a simple two-step process to start watermarking the images. First, I use <a href="http://github.com/citizenparker/incrediblog/raw/master/_images/support/regen_stamp.sh">this shell script</a> to create the watermark image (&ldquo;spparker.com&rdquo; in this case.)</p>
+
+<p>Then I created this generator plugin to stamp each file in <span class="inline-syntax">_images </span> with that watermark and dump the result in <span class="inline-syntax">/images </span>:</p>
+
+<div class="highlight"><pre><span class="nb">require</span> <span class="s1">&#39;mini_magick&#39;</span>
+<span class="nb">require</span> <span class="s1">&#39;fileutils&#39;</span>
+
+<span class="k">module</span> <span class="nn">Jekyll</span>
+  <span class="k">class</span> <span class="nc">ImageGenerator</span> <span class="o">&lt;</span> <span class="no">Generator</span>
+    <span class="n">safe</span> <span class="kp">true</span>
+    <span class="n">priority</span> <span class="ss">:low</span>
+
+    <span class="k">def</span> <span class="nf">generate</span><span class="p">(</span><span class="n">site</span><span class="p">)</span>
+      <span class="no">Dir</span><span class="o">.</span><span class="n">glob</span><span class="p">(</span><span class="s1">&#39;_images/*&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">file</span><span class="o">|</span>
+        <span class="n">convert_image</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="n">new_path</span><span class="p">(</span><span class="n">file</span><span class="p">,</span> <span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;destination&#39;</span><span class="o">]</span><span class="p">))</span> <span class="k">unless</span> <span class="no">File</span><span class="o">.</span><span class="n">directory?</span><span class="p">(</span><span class="n">file</span><span class="p">)</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+
+    <span class="kp">private</span>
+
+    <span class="k">def</span> <span class="nf">convert_image</span><span class="p">(</span><span class="n">old_file</span><span class="p">,</span> <span class="n">new_file</span><span class="p">)</span>
+      <span class="n">image</span> <span class="o">=</span> <span class="no">MiniMagick</span><span class="o">::</span><span class="no">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">old_file</span><span class="p">)</span>
+      <span class="n">result</span> <span class="o">=</span> <span class="n">image</span><span class="o">.</span><span class="n">composite</span><span class="p">(</span><span class="no">MiniMagick</span><span class="o">::</span><span class="no">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">stamp_path</span><span class="p">))</span> <span class="k">do</span> <span class="o">|</span><span class="n">c</span><span class="o">|</span>
+        <span class="n">c</span><span class="o">.</span><span class="n">gravity</span> <span class="s2">&quot;southeast&quot;</span>
+      <span class="k">end</span>
+      <span class="n">result</span><span class="o">.</span><span class="n">write</span> <span class="n">new_file</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">new_path</span><span class="p">(</span><span class="n">old_file</span><span class="p">,</span> <span class="n">destination_root</span><span class="p">)</span>
+      <span class="n">base_path</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">destination_root</span><span class="p">,</span> <span class="s1">&#39;images&#39;</span><span class="p">)</span>
+      <span class="no">FileUtils</span><span class="o">.</span><span class="n">mkdir_p</span><span class="p">(</span><span class="n">base_path</span><span class="p">)</span> <span class="k">unless</span> <span class="no">Dir</span><span class="o">.</span><span class="n">exists?</span><span class="p">(</span><span class="n">base_path</span><span class="p">)</span>
+      <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base_path</span><span class="p">,</span> <span class="no">File</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">old_file</span><span class="p">))</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">stamp_path</span>
+      <span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="no">Dir</span><span class="o">.</span><span class="n">pwd</span><span class="p">,</span> <span class="s1">&#39;_images/support&#39;</span><span class="p">,</span> <span class="s1">&#39;stamp.png&#39;</span><span class="p">)</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></div>
+
+<p><a id="contact"></a></p>
+
+<h2 id="contact-me">Contact Me</h2>
+
+<p>Obviously, my blog is poised to set the world aflame. All of that enthusiasm and passion will go to waste though if people can&rsquo;t reach out to me and let me know how much my work has personally moved them and their families. A &ldquo;Contact&rdquo; page was in order.</p>
+
+<p>This is a tall order for a static HTML generator to handle. After reading <a href="https://gist.github.com/463598">this gist</a> I decided to build a similar light-weight Sinatra app and some Javascript trickery to send emails that the static HTML pages will POST to.</p>
+
+<p>Here&rsquo;s the Sinatra app in full:</p>
+
+<div class="highlight"><pre><span class="nb">require</span> <span class="s1">&#39;sinatra&#39;</span>
+<span class="nb">require</span> <span class="s1">&#39;pony&#39;</span>
+
+
+<span class="k">class</span> <span class="nc">Emailer</span> <span class="o">&lt;</span> <span class="no">Sinatra</span><span class="o">::</span><span class="no">Base</span>
+
+  <span class="n">post</span> <span class="s1">&#39;/contact&#39;</span> <span class="k">do</span>
+    <span class="k">return</span> <span class="n">error</span> <span class="k">if</span> <span class="n">params</span><span class="o">[</span><span class="ss">:email</span><span class="o">].</span><span class="n">nil?</span> <span class="o">||</span> <span class="n">params</span><span class="o">[</span><span class="ss">:name</span><span class="o">].</span><span class="n">nil?</span> <span class="o">||</span> <span class="n">params</span><span class="o">[</span><span class="ss">:message</span><span class="o">].</span><span class="n">nil?</span>
+    <span class="no">Pony</span><span class="o">.</span><span class="n">mail</span><span class="p">(</span>
+      <span class="ss">:to</span> <span class="o">=&gt;</span><span class="no">ENV</span><span class="o">[</span><span class="s1">&#39;EMAIL_TO&#39;</span><span class="o">]</span><span class="p">,</span>
+      <span class="ss">:from</span> <span class="o">=&gt;</span><span class="no">ENV</span><span class="o">[</span><span class="s1">&#39;EMAIL_FROM&#39;</span><span class="o">]</span><span class="p">,</span>
+      <span class="ss">:subject</span> <span class="o">=&gt;</span><span class="s2">&quot;[spparker.com] Message from </span><span class="si">#{</span><span class="n">params</span><span class="o">[</span><span class="ss">:email</span><span class="o">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> 
+      <span class="ss">:body</span> <span class="o">=&gt;</span> <span class="n">params</span><span class="o">[</span><span class="ss">:message</span><span class="o">]</span><span class="p">,</span>
+      <span class="ss">:via</span> <span class="o">=&gt;</span> <span class="ss">:smtp</span><span class="p">,</span>
+      <span class="ss">:via_options</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="ss">:address</span>              <span class="o">=&gt;</span> <span class="s1">&#39;smtp.gmail.com&#39;</span><span class="p">,</span>
+        <span class="ss">:port</span>                 <span class="o">=&gt;</span> <span class="s1">&#39;587&#39;</span><span class="p">,</span>
+        <span class="ss">:enable_starttls_auto</span> <span class="o">=&gt;</span> <span class="kp">true</span><span class="p">,</span>
+        <span class="ss">:user_name</span> <span class="o">=&gt;</span> <span class="no">ENV</span><span class="o">[</span><span class="s1">&#39;EMAIL_USERNAME&#39;</span><span class="o">]</span><span class="p">,</span>
+        <span class="ss">:password</span> <span class="o">=&gt;</span> <span class="no">ENV</span><span class="o">[</span><span class="s1">&#39;EMAIL_PASSWORD&#39;</span><span class="o">]</span><span class="p">,</span>
+        <span class="ss">:authentication</span>       <span class="o">=&gt;</span> <span class="ss">:plain</span><span class="p">,</span>
+        <span class="ss">:domain</span> <span class="o">=&gt;</span> <span class="s1">&#39;spparker.com&#39;</span>
+      <span class="p">}</span>
+    <span class="p">)</span>
+
+    <span class="n">redirect</span> <span class="s1">&#39;/contact.html?success=true&#39;</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">error</span>
+    <span class="n">redirect</span> <span class="s1">&#39;/contact.html?errors=true&#39;</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></div>
+
+<p>There&rsquo;s really not much to it. The contact page then just checks for the &ldquo;success&rdquo; or &ldquo;errors&rdquo; URL parameters to display an appropriate message. A little wonky, but it works and it saves me from serving any HTML content outside of Jekyll.</p>
+
+<p><a id="duostack"></a></p>
+
+<h2 id="duostack-hosting">Duostack Hosting</h2>
+
+<p>At this point we&rsquo;re done tweaking Jekyll to suit our needs. The last bit of &ldquo;neat&rdquo; was setting this up to run on <a href="http://www.dupstack.com">Duostack</a>, a Ruby<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> cloud-hosting inspired by Heroku that hides all of the nastiness involved in administering a server. I&rsquo;d been itching to try it for awhile and this gave me a semi-reasonable way to do so. Thanks to the <a href="https://github.com/bry4n/rack-jekyll">rack-jekyll gem</a> this is pretty straightforward.</p>
+
+<p>All I needed was this config.ru Rackup file:</p>
+
+<div class="highlight"><pre><span class="nb">require</span> <span class="s1">&#39;bundler/setup&#39;</span>
+<span class="nb">require</span> <span class="s1">&#39;rack/jekyll&#39;</span>
+<span class="nb">require</span> <span class="s1">&#39;./lib/email&#39;</span>
+
+<span class="n">use</span> <span class="no">Emailer</span>
+<span class="n">run</span> <span class="no">Rack</span><span class="o">::</span><span class="no">Jekyll</span><span class="o">.</span><span class="n">new</span>
+</pre></div>
+
+<p>(Note that &ldquo;use Emailer&rdquo; is the call to the <a href="#contact">Sinatra app</a> I built to power the Contact page)</p>
+
+<p>Then all that&rsquo;s required to setup and deploy this once you have a Duostack account is this:</p>
+
+<div class="highlight"><pre>&gt; duostack create &#39;my-cool-app-name-here&#39;
+&gt; git push origin duostack
+</pre></div>
+
+<h2 id="wrapping-up">Wrapping Up</h2>
+
+<p>I&rsquo;m sure at least a few of these customizations aren&rsquo;t for you, or may need some tweaking before they are. I hope that you see how malleable Jekyll is, and how simple customizing it can be. Again, you are encouraged to steal from <a href="http://github.com/citizenparker/incrediblog">my github repo</a>, although a nod in your README or somewhere else would be awfully nice of you. </p>
+
+<p>-SP</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>If you find a way around that, please <a href="/contact">contact me</a>. I hate the <span class="inline-syntax">block_contents </span> method.<a href="#fnref:1" rev="footnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>I am writing this in a orange stocking cap and <a href="http://www.topatoco.com/merchant.mvc?Screen=PROD&amp;Store_Code=TO&amp;Product_Code=BEAT-READING&amp;Category_Code=BEAT">this t-shirt</a>.<a href="#fnref:2" rev="footnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>And node.js too.<a href="#fnref:3" rev="footnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </section>
+  <section class="divider"></section>
+
+  <section class="post">
   <h2><a href="/posts/2009-11-24-the-day-to-day">The Day-to-Day </a></h2>
     <section class="post-date">Tuesday, November 24, 2009</section>
     <p><a href="http://www.flickr.com/photos/denisecarbonell/3923601326/"><img src="http://spparker.com/images/tools.jpg" title="&quot;the tools from maine&quot; by denisecarbonell" alt="&quot;the tools from maine&quot; by denisecarbonell" /></a></p>

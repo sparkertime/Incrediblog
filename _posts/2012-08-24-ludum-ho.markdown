@@ -1,0 +1,19 @@
+---
+layout: post
+title: Ludum, Ho!
+---
+
+{% image light_table.png %}
+  title: Light Table in Action
+{% endimage %}
+
+Huzzah! In roughly 3.5 hours, [Ludum Dare 24](http://www.ludumdare.com/compo/about-ludum-dare/) will begin. I'll be participating again in the loosest sense of the word. As with my entry for LD23, I am going into this deliberately unfamiliar with the frameworks I'll be using. Any ideas you may have about "fun", "playable", or "complete" should be checked at the door.
+
+If you have any interest or background in programming, I strongly encourage you to [participate](http://www.ludumdare.com/compo/rules/). If you set aside all goals except "do your best" this is a tremendously fun event. Anyone of any background can participate.
+
+I'll be writing my entry in Clojure and libgdx this time around. I'm excited for a couple of reasons. First, this will be my first opportunity to play with [LightTable](http://app.kodowa.com/) (pictured above) on a real project. Most importantly though, game programming is typically the poster child of mutated state - nearly every element you see when playing a game mutates-in-place over time. I'm very curious to see how well or poorly I can translate Clojure to this domain.
+
+If you want the gory details on my progress, you can find that on [scoopsy.com](http://scoopsy.com). Otherwise I'll post a summary eventually.
+
+TO THE CODES!
+-SP
