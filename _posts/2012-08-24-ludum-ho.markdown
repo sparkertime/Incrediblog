@@ -16,4 +16,5 @@ I'll be writing my entry in Clojure and libgdx this time around. I'm excited for
 If you want the gory details on my progress, you can find that on [scoopsy.com](http://scoopsy.com). Otherwise I'll post a summary eventually.
 
 TO THE CODES!
+
 -SP
