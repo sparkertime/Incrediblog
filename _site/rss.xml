@@ -7,8 +7,8 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Fri, 31 Aug 2012 14:32:49 CDT</pubDate>
-    <lastBuildDate>Fri, 31 Aug 2012 14:32:49 CDT</lastBuildDate>
+    <pubDate>Fri, 31 Aug 2012 14:35:13 CDT</pubDate>
+    <lastBuildDate>Fri, 31 Aug 2012 14:35:13 CDT</lastBuildDate>
 
     
       <item>
@@ -351,7 +351,6 @@
   &lt;li&gt;&lt;a href=&quot;#posting&quot;&gt;Image Posting&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#watermarking&quot;&gt;Image Watermarking&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact Page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#duostack&quot;&gt;Duostack Hosting&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Let&amp;rsquo;s go!&lt;/p&gt;
@@ -588,30 +587,6 @@
 
 &lt;p&gt;There&amp;rsquo;s really not much to it. The contact page then just checks for the &amp;ldquo;success&amp;rdquo; or &amp;ldquo;errors&amp;rdquo; URL parameters to display an appropriate message. A little wonky, but it works and it saves me from serving any HTML content outside of Jekyll.&lt;/p&gt;
 
-&lt;p&gt;&lt;a id=&quot;duostack&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;duostack-hosting&quot;&gt;Duostack Hosting&lt;/h2&gt;
-
-&lt;p&gt;At this point we&amp;rsquo;re done tweaking Jekyll to suit our needs. The last bit of &amp;ldquo;neat&amp;rdquo; was setting this up to run on &lt;a href=&quot;http://www.dupstack.com&quot;&gt;Duostack&lt;/a&gt;, a Ruby&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; cloud-hosting inspired by Heroku that hides all of the nastiness involved in administering a server. I&amp;rsquo;d been itching to try it for awhile and this gave me a semi-reasonable way to do so. Thanks to the &lt;a href=&quot;https://github.com/bry4n/rack-jekyll&quot;&gt;rack-jekyll gem&lt;/a&gt; this is pretty straightforward.&lt;/p&gt;
-
-&lt;p&gt;All I needed was this config.ru Rackup file:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;bundler/setup&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;rack/jekyll&amp;#39;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;./lib/email&amp;#39;&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Emailer&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Rack&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;(Note that &amp;ldquo;use Emailer&amp;rdquo; is the call to the &lt;a href=&quot;#contact&quot;&gt;Sinatra app&lt;/a&gt; I built to power the Contact page)&lt;/p&gt;
-
-&lt;p&gt;Then all that&amp;rsquo;s required to setup and deploy this once you have a Duostack account is this:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&amp;gt; duostack create &amp;#39;my-cool-app-name-here&amp;#39;
-&amp;gt; git push origin duostack
-&lt;/pre&gt;&lt;/div&gt;
-
 &lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
 
 &lt;p&gt;I&amp;rsquo;m sure at least a few of these customizations aren&amp;rsquo;t for you, or may need some tweaking before they are. I hope that you see how malleable Jekyll is, and how simple customizing it can be. Again, you are encouraged to steal from &lt;a href=&quot;http://github.com/citizenparker/incrediblog&quot;&gt;my github repo&lt;/a&gt;, although a nod in your README or somewhere else would be awfully nice of you. &lt;/p&gt;
@@ -625,9 +600,6 @@
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
       &lt;p&gt;I am writing this in a orange stocking cap and &lt;a href=&quot;http://www.topatoco.com/merchant.mvc?Screen=PROD&amp;amp;Store_Code=TO&amp;amp;Product_Code=BEAT-READING&amp;amp;Category_Code=BEAT&quot;&gt;this t-shirt&lt;/a&gt;.&lt;a href=&quot;#fnref:2&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;And node.js too.&lt;a href=&quot;#fnref:3&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;

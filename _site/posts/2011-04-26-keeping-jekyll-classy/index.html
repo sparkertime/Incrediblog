@@ -54,7 +54,6 @@
   <li><a href="#posting">Image Posting</a></li>
   <li><a href="#watermarking">Image Watermarking</a></li>
   <li><a href="#contact">Contact Page</a></li>
-  <li><a href="#duostack">Duostack Hosting</a></li>
 </ul>
 
 <p>Let&rsquo;s go!</p>
@@ -291,30 +290,6 @@
 
 <p>There&rsquo;s really not much to it. The contact page then just checks for the &ldquo;success&rdquo; or &ldquo;errors&rdquo; URL parameters to display an appropriate message. A little wonky, but it works and it saves me from serving any HTML content outside of Jekyll.</p>
 
-<p><a id="duostack"></a></p>
-
-<h2 id="duostack-hosting">Duostack Hosting</h2>
-
-<p>At this point we&rsquo;re done tweaking Jekyll to suit our needs. The last bit of &ldquo;neat&rdquo; was setting this up to run on <a href="http://www.dupstack.com">Duostack</a>, a Ruby<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> cloud-hosting inspired by Heroku that hides all of the nastiness involved in administering a server. I&rsquo;d been itching to try it for awhile and this gave me a semi-reasonable way to do so. Thanks to the <a href="https://github.com/bry4n/rack-jekyll">rack-jekyll gem</a> this is pretty straightforward.</p>
-
-<p>All I needed was this config.ru Rackup file:</p>
-
-<div class="highlight"><pre><span class="nb">require</span> <span class="s1">&#39;bundler/setup&#39;</span>
-<span class="nb">require</span> <span class="s1">&#39;rack/jekyll&#39;</span>
-<span class="nb">require</span> <span class="s1">&#39;./lib/email&#39;</span>
-
-<span class="n">use</span> <span class="no">Emailer</span>
-<span class="n">run</span> <span class="no">Rack</span><span class="o">::</span><span class="no">Jekyll</span><span class="o">.</span><span class="n">new</span>
-</pre></div>
-
-<p>(Note that &ldquo;use Emailer&rdquo; is the call to the <a href="#contact">Sinatra app</a> I built to power the Contact page)</p>
-
-<p>Then all that&rsquo;s required to setup and deploy this once you have a Duostack account is this:</p>
-
-<div class="highlight"><pre>&gt; duostack create &#39;my-cool-app-name-here&#39;
-&gt; git push origin duostack
-</pre></div>
-
 <h2 id="wrapping-up">Wrapping Up</h2>
 
 <p>I&rsquo;m sure at least a few of these customizations aren&rsquo;t for you, or may need some tweaking before they are. I hope that you see how malleable Jekyll is, and how simple customizing it can be. Again, you are encouraged to steal from <a href="http://github.com/citizenparker/incrediblog">my github repo</a>, although a nod in your README or somewhere else would be awfully nice of you. </p>
@@ -328,9 +303,6 @@
     </li>
     <li id="fn:2">
       <p>I am writing this in a orange stocking cap and <a href="http://www.topatoco.com/merchant.mvc?Screen=PROD&amp;Store_Code=TO&amp;Product_Code=BEAT-READING&amp;Category_Code=BEAT">this t-shirt</a>.<a href="#fnref:2" rev="footnote">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p>And node.js too.<a href="#fnref:3" rev="footnote">&#8617;</a></p>
     </li>
   </ol>
 </div>

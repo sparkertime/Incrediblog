@@ -22,7 +22,6 @@ I'm going to dive into each of the following "neat" things I did and show the ac
 * [Image Posting](#posting)
 * [Image Watermarking](#watermarking)
 * [Contact Page](#contact)
-* [Duostack Hosting](#duostack)
 
 Let's go!
 
@@ -126,26 +125,6 @@ Here's the Sinatra app in full:
 {% endsyntax %}
 
 There's really not much to it. The contact page then just checks for the "success" or "errors" URL parameters to display an appropriate message. A little wonky, but it works and it saves me from serving any HTML content outside of Jekyll.
-
-<a id="duostack"></a>
-
-## Duostack Hosting
-
-At this point we're done tweaking Jekyll to suit our needs. The last bit of "neat" was setting this up to run on [Duostack](http://www.dupstack.com), a Ruby[^3] cloud-hosting inspired by Heroku that hides all of the nastiness involved in administering a server. I'd been itching to try it for awhile and this gave me a semi-reasonable way to do so. Thanks to the [rack-jekyll gem](https://github.com/bry4n/rack-jekyll) this is pretty straightforward.
-
-All I needed was this config.ru Rackup file:
-
-{% syntax ruby https://github.com/citizenparker/incrediblog/raw/master/config.ru %}
-{% endsyntax %}
-
-(Note that "use Emailer" is the call to the [Sinatra app](#contact) I built to power the Contact page)
-
-Then all that's required to setup and deploy this once you have a Duostack account is this:
-
-{% syntax text %}
-> duostack create 'my-cool-app-name-here'
-> git push origin duostack
-{% endsyntax %}
 
 ## Wrapping Up
 
