@@ -16,7 +16,7 @@ Be advised - I don't pretend to be a master, merely a student.
 
 Beyond business strategy (which is outside the scope of this article), the goals of leadership are primarily **reducing turnover** and **increasing productivity**. Of course there's a number of other secondary goals that are crucially important, like fostering a great company culture and happy employees. However, I view those first two as preconditions or boons for nearly every other goal you may have.
 
-### Randsian Philopsophy
+### Randsian Philosophy
 
 You can't do much better than making sure you pass [the Rands Test](http://www.randsinrepose.com/archives/2011/10/11/the_rands_test.html). Seriously, go read that right now. I'm about to expand on a couple of his points, the two I see as the absolute bare minimum for a leader.
 
@@ -36,11 +36,11 @@ Harvard Business Review's classic article "[Who's Got The Monkey](http://hbr.org
 
 For maximal productivity, you want your employees to operate at the last three levels. However, they can't do this effectively without a great understanding of the mission and how they play into it. Reinforcing this at every opportunity (team meetings, status updates, etc.) keeps them at those higher, more productive levels.
 
-## Two Golden Rules
+### Two Golden Rules
 
 When all else fails, I fall back on these two maxims: "**Manage others as I would want to be managed**" and "**Unblocking my team is priority #1**." When I'm in unknown territory, I try to imagine how I would want my own managers to treat me and go from there. I also make clear to my teams that no meeting or other priority is so important that it trumps helping them. Not only does that help keep people immediately productive, but it's also a motivation boost to see your team lead drop everything to help debug a problem when you are truly stuck.
 
-## Useful?
+### Useful?
 
 Anyway, if you find this useful, please do [let me know](http://spparker.com/contact.html) and I can write a few more on the subject.
 
