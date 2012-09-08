@@ -16,10 +16,7 @@ module Jekyll
 
     def convert_image(old_file, new_file)
       image = MiniMagick::Image.open(old_file)
-      result = image.composite(MiniMagick::Image.open(stamp_path)) do |c|
-        c.gravity "southeast"
-      end
-      result.write new_file
+      image.write new_file
     end
 
     def new_path(old_file, destination_root)
