@@ -7,9 +7,29 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Fri, 31 Aug 2012 14:35:13 CDT</pubDate>
-    <lastBuildDate>Fri, 31 Aug 2012 14:35:13 CDT</lastBuildDate>
+    <pubDate>Mon, 01 Oct 2012 09:49:23 CDT</pubDate>
+    <lastBuildDate>Mon, 01 Oct 2012 09:49:23 CDT</lastBuildDate>
 
+    
+      <item>
+        <title>Announcing Lister!</title>
+        <link>http://www.spparker.com/posts/2012-10-01-announcing-lister</link>
+        <pubDate>Mon, 01 Oct 2012 00:00:00 CDT</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://www.spparker.com/posts/2012-10-01-announcing-lister</guid>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/pmiaki/6657150957/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/xwing-parts.jpg&quot; title=&quot;&amp;quot;X-Wing Plans&amp;quot; by psiaki&quot; alt=&quot;&amp;quot;X-Wing Plans&amp;quot; by psiaki&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week, I grew frustrated with the available options to make and share shopping lists with people. I didn&amp;rsquo;t want someone to have to create an account, choose from curated selections, or any other hassle. I wanted people to make a list and instantly be able to share it with whomever they like.&lt;/p&gt;
+
+&lt;p&gt;So I created &lt;a href=&quot;http://lister.citizenparker.com&quot;&gt;Lister!&lt;/a&gt;. It offers no frills, no security, and no guarantees (doubly-so as it is backed by an in-memory Redis store). But it&amp;rsquo;s probably the absolute simplest way to share a list. So get listing!&lt;/p&gt;
+
+&lt;p&gt;If interested, Lister! is written in Clojure and the source is available at &lt;a href=&quot;http://www.github.com/citizenparker/lister&quot;&gt;github.com/citizenparker/lister&lt;/a&gt;. There&amp;rsquo;s a bevy of problems in the code and in the app (the HTML5 features I use aren&amp;rsquo;t supported in Android, most frustratingly for me) but it will have to wait a bit.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+
+&lt;p&gt;-SP&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>Thoughts on Leadership</title>
