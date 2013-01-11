@@ -37,6 +37,26 @@
         <section id="page-content">
           
   <section class="post">
+  <h2><a href="/posts/2011-07-13-lmax">LMAX to the Max </a></h2>
+    <section class="post-date">Wednesday, July 13, 2011</section>
+    <p><a href="http://www.flickr.com/photos/visentico/4622980574/"><img src="http://spparker.com/images/tilt-shift-garden.jpg" title="&quot;Powerscourt : Tiltshift&quot; by Visentico / Sento" alt="&quot;Powerscourt : Tiltshift&quot; by Visentico / Sento" /></a></p>
+
+<p>Last night I spent some time to dig into this fascinating article by Martin Fowler on <a href="http://martinfowler.com/articles/lmax.html">the LMAX platform</a>. You should get yourself a nice long chunk of time and read it, really.</p>
+
+<p>It&rsquo;s an incredible project, one that audaciously challenges many long-held assumptions about how to build software in our modern age. It&rsquo;s the product of an incredible team who truly distilled their requirements into an incredible platform.</p>
+
+<p>It&rsquo;s awe-inspiring. One of the best articles I&rsquo;ve read in a long time. Someday, I&rsquo;ll be in the opportunity and have the technical expertise to help build something like that. It will be great, and I hope you&rsquo;re there too.</p>
+
+<p>Seriously, <a href="http://martinfowler.com/articles/lmax.html">go read it</a>.</p>
+
+<p>-SP</p>
+
+<p><strong>Update</strong> - Turns out that a decent chunk of that project has been open sourced. You can look at the <a href="http://code.google.com/p/disruptor/">disruptor code here</a>.</p>
+
+  </section>
+  <section class="divider"></section>
+
+  <section class="post">
   <h2><a href="/posts/2011-07-11-chisc-processes-patterns">ChiSC Meeting - 7/20 - "Processes & Patterns" </a></h2>
     <section class="post-date">Monday, July 11, 2011</section>
     <p><strong>We’re in need of a venue for this meeting - if your know of a place in the Loop that could help, please <a href="/contact">contact me</a></strong></p>
@@ -273,10 +293,7 @@
 
     <span class="k">def</span> <span class="nf">convert_image</span><span class="p">(</span><span class="n">old_file</span><span class="p">,</span> <span class="n">new_file</span><span class="p">)</span>
       <span class="n">image</span> <span class="o">=</span> <span class="no">MiniMagick</span><span class="o">::</span><span class="no">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">old_file</span><span class="p">)</span>
-      <span class="n">result</span> <span class="o">=</span> <span class="n">image</span><span class="o">.</span><span class="n">composite</span><span class="p">(</span><span class="no">MiniMagick</span><span class="o">::</span><span class="no">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">stamp_path</span><span class="p">))</span> <span class="k">do</span> <span class="o">|</span><span class="n">c</span><span class="o">|</span>
-        <span class="n">c</span><span class="o">.</span><span class="n">gravity</span> <span class="s2">&quot;southeast&quot;</span>
-      <span class="k">end</span>
-      <span class="n">result</span><span class="o">.</span><span class="n">write</span> <span class="n">new_file</span>
+      <span class="n">image</span><span class="o">.</span><span class="n">write</span> <span class="n">new_file</span>
     <span class="k">end</span>
 
     <span class="k">def</span> <span class="nf">new_path</span><span class="p">(</span><span class="n">old_file</span><span class="p">,</span> <span class="n">destination_root</span><span class="p">)</span>
@@ -386,49 +403,6 @@
   </section>
   <section class="divider"></section>
 
-  <section class="post">
-  <h2><a href="/posts/2009-09-28-spray-and-pray-developer-resumes">Spray-and-Pray Developer Resumes </a></h2>
-    <section class="post-date">Monday, September 28, 2009</section>
-    <p><a href="http://www.flickr.com/photos/psd/3055756907/"><img src="http://spparker.com/images/resume.jpg" title="&quot;TiddlyRésumé&quot; by psd" alt="&quot;TiddlyRésumé&quot; by psd" /></a></p>
-
-<p>I interview a fair amount of software developers (although not as often as I used to, sadly), and so I have people ask me about a variety of issues related to finding programming gigs. What certifications, what schools, what questions to ask, and even what attire to wear.</p>
-
-<p>I really thought interview attire was something of a solved problem, but apparently not.</p>
-
-<p>I digress. When I’m asked one of those questions, I usually try to stress that it’s hard to hurt yourself when answering any of the above questions. Yeah, some schools are better than others, but that doesn’t matter too much for programmers, especially once they have a year or so of experience. Certifications usually don’t hurt or help too much unless it helps you meet a job’s requirements (although an <a href="http://www.xmlmaster.org/en/">XML Master Certification</a> is resume poison).</p>
-
-<p>However, there is one particular brand of resume that, regardless of talent, really irks me and makes it difficult to get on my good side, let alone get a recommendation from me. I hate, hate, HATE finding a “spray and pray” resume. This is the kind of resume that is two pages long for every year of experience and is absolutely crammed with a wide range of unrelated technical terms. It’s the kind of resume where someone has liberally <strong>sprayed</strong> the document with verbiage and <strong>prayed</strong> that some of it tricked someone into interviewing them.</p>
-
-<p>It doesn’t work.</p>
-
-<h4 id="telltale-signs-youve-written-a-spray-and-pray-resume">Telltale signs you’ve written a Spray and Pray Resume</h4>
-<ul>
-  <li>Under “Programming Languages,” you list every single programming language you have ever encountered.</li>
-  <li>You list every job, ever.</li>
-  <li>For each job, you list an insane number of different, unrelated responsibilities.</li>
-  <li>You have the world’s most vague Objective Statement.</li>
-  <li>You list at least one OS for which you don’t know how to navigate the file system from a command prompt.</li>
-  <li>You list any UI framework for which you cannot instantly tell me the base class/method/approach for displaying a “Hello world” window.</li>
-</ul>
-
-<h4 id="whats-so-bad-about-that-huh">What’s so bad about that, huh?</h4>
-<p>Many people would say these resumes looks desperate, and <a href="http://lindsayolson.com/what-not-to-say-or-do-in-an-interview-part-2-by-stephanie-lloyd/">you generally want to avoid looking desperate in an interview</a>. I don’t really care too much about that however, as Lord knows I have been desperate for work before and lucked out to find a job despite it.</p>
-
-<p>A more significant problem with this kind of resume is that is just looks lazy. If you can’t make the time to trim your resume down to only those things the interviewer has a chance of caring about, then why should the interviewer make the time to talk to you? Just 2-3 minutes spent making a specific objective statement, removing irrelevant items (or moving them to a Hobbies/Interest section if you really, really want them on your resume) and tightening the resume up in general can work wonders.</p>
-
-<p>Worse than looking lazy is looking dishonest. If you are confident enough in some skill that you put it on a resume, then you’d damn well better be at least at an intermediate level in it. If you haven’t touched that programming language since high school, leave it off your resume. Otherwise, as soon as you have to tell an interviewer you don’t know much about <strong>something</strong> on your resume, you bring <strong>everything</strong> into question. It reflects poorly upon you, and the interviewer will subsequently devote a fair amount of time fact-checking your resume rather than really engaging with you.</p>
-
-<p>Even if you don’t look lazy (which you might), and even if you don’t seem dishonest (which you <strong>will</strong>), you’re still doing yourself a disservice. Why? Because your strengths will be lost in the “noise” you create with unrelated terms and bullet-points. I promise you, even if you are just graduating from school, you already have strengths that are worth showcasing on a resume. It’s many times more effective to have three bullet points that prominently highlight things you excel at than to hide those amongst umpteen other areas where you aren’t so hot. By paring down your resume and saying <strong>less</strong>, you can let your strengths shine that much more and seem <strong>stronger</strong>.</p>
-
-<p>Almost all of those problems listed earlier can be solved by simply going over your resume, and asking yourself “Could I answer a simple question about this?” If the answer is no, leave it off your resume. Otherwise, you might just be sitting across from someone like me who ALWAYS picks one of the programming languages you put at the end of your list and asks you to compare and contrast it against a language from the front of your list.</p>
-
-<p>Oh, and never list XML as a programming language. (Although if anyone ever says that they really meant XSLT and that XSLT is Turing complete, I’ll be suitably impressed to overlook the mistake. Throw in a “Duh” for good measure though)</p>
-
-<p>-SP</p>
-
-  </section>
-  <section class="divider"></section>
-
 
 <section id="paging">
   
@@ -437,8 +411,10 @@
     
   
 
-  Page 3 of 3
+  Page 3 of 4
 
+  
+    <a href="/page4">Next Page &rArr;</a>
   
 </section>
 

@@ -1,0 +1,5 @@
+#!/bin/bash
+NEW_FILE=_posts/$(date "+%Y-%m-%d")-$1.markdown
+
+echo "Creating $NEW_FILE"
+cp _post_template.markdown $NEW_FILE

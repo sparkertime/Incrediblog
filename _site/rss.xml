@@ -7,9 +7,33 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Mon, 01 Oct 2012 09:49:23 CDT</pubDate>
-    <lastBuildDate>Mon, 01 Oct 2012 09:49:23 CDT</lastBuildDate>
+    <pubDate>Thu, 10 Jan 2013 20:04:47 CST</pubDate>
+    <lastBuildDate>Thu, 10 Jan 2013 20:04:47 CST</lastBuildDate>
 
+    
+      <item>
+        <title>Frozen Rivers</title>
+        <link>http://www.spparker.com/posts/2013-01-10-frozen-rivers</link>
+        <pubDate>Thu, 10 Jan 2013 00:00:00 CST</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://www.spparker.com/posts/2013-01-10-frozen-rivers</guid>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/stuckincustoms/428125271/&quot;&gt;&lt;img src=&quot;http://spparker.com/images/glacier_river.jpg&quot; title=&quot;&amp;quot;Glacier River&amp;quot; by Trey Ratcliff&quot; alt=&quot;&amp;quot;Glacier River&amp;quot; by Trey Ratcliff&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;On the great podcast &lt;a href=&quot;http://www.dancarlin.com/disp.php/hh&quot;&gt;Hardcore History&lt;/a&gt;, Dan Carlin recently had this to say about the invasion of Russia (emphasis mine):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Mongols first showed up [in Russia] in the winter of 1237. It should be noted that almost everyone in history has tried to avoid fighting in Russia in the winter. Hitler was perhaps defeated because he couldn&amp;rsquo;t. Napoleon did everything in his power to be done with military operations before the Russian winter hit. The Mongols waited until the Russian winter came before they started operations. Because in the winter of 1237, once the lakes started freezing and the rivers started freezing and the marshes froze over, &lt;strong&gt;it turned all the natural barriers against an invader into highways for a people like the Mongols. It made them better.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Mongols were a nightmare that the west proved completely incapable of handling. In part this was due to how the Mongols seemingly did everything wrong in Western eyes. An individual European knight could easily best a single Mongol warrior,. Mongols didn&amp;rsquo;t bother to maintain supply lines and establish clear control of their conquered provinces.  They split their armies into multiple, smaller groups rather than concentrating their forces.&lt;/p&gt;
+
+&lt;p&gt;Yet the Mongols turned each of these weaknesses into strength. They trained their troops as teams, not individuals, and turned meager soldiers into fearsome groups. They broke into armies small enough to live off the land rather than maintain supply lines, making them incredibly mobile and able to strike multiple fronts at once.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately the Khans turned this mindset towards one of the largest genocides in human history, so not everything in their example is admirable. Nonetheless, this passage gave me pause to reconsider my natural barriers and weaknesses, and how I might use unconventional thinking to turn them for advantage, to make me better.&lt;/p&gt;
+
+&lt;p&gt;-SP&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>Announcing Lister!</title>
@@ -542,10 +566,7 @@
 
     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;convert_image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;old_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
       &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;MiniMagick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;old_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;composite&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MiniMagick&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Image&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stamp_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gravity&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;southeast&amp;quot;&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_file&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new_file&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 
     &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;new_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;old_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;destination_root&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
