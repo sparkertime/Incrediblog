@@ -7,9 +7,36 @@
     <atom:link href="http://www.spparker.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>A blog like any other, except this one is mine.</description>
     <language>en-us</language>
-    <pubDate>Thu, 10 Jan 2013 20:04:47 CST</pubDate>
-    <lastBuildDate>Thu, 10 Jan 2013 20:04:47 CST</lastBuildDate>
+    <pubDate>Mon, 18 Feb 2013 22:55:45 CST</pubDate>
+    <lastBuildDate>Mon, 18 Feb 2013 22:55:45 CST</lastBuildDate>
 
+    
+      <item>
+        <title>Tales of Maj'Eyal</title>
+        <link>http://www.spparker.com/posts/2013-02-18-thoughts-on-tome</link>
+        <pubDate>Mon, 18 Feb 2013 00:00:00 CST</pubDate>
+        <author>Scott Parker</author>
+        <guid>http://www.spparker.com/posts/2013-02-18-thoughts-on-tome</guid>
+        <description>&lt;p&gt;&lt;img src=&quot;http://spparker.com/images/tome4.jpg&quot; title=&quot;The ToME4 Worldmap. I am about to die.&quot; alt=&quot;The ToME4 Worldmap. I am about to die.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am a sucker for roguelikes. Most roguelikes fall into a very standard template - the very name of the genre describes derivative works inspired by an old classic, “Rogue.” New games may change the theme or improve the graphics but few fundamentally deviate from the norms established long ago in classics like NetHack, Ancient Domains of Mystery, or Angband.&lt;/p&gt;
+
+&lt;p&gt;Despite some strong recommendations, I initially wrote off Tales of Maj’Eyal (ToME) as another such clone, albeit one designed for newcomers to the genre. After a few playthroughs I see the differences though - interesting design decisions throughout the game kept me wondering “what if” and coming back. Take inscriptions, for example, ToME’s response to healing/mana potions. From &lt;a href=&quot;http://te4.org/wiki/inscriptions&quot;&gt;their own documentation&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;… inscriptions (infusions and runes) replace potions and scrolls. The design goal behind inscriptions is to eliminate the time spent by the player “farming” potions and scrolls in weak zones, in order to make a run at a tougher zone. They are unlimited in use, but have cooldowns attached, so you must carefully time your use of them to survive. Unlike many other RPGs you cannot rely on a large stack of potions to get you through a tough battle.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That level of care in design permeates the game. Classes are designed to be familiar, and yet each one has unique mechanics that keep me coming back. Many of the standard or monotonous aspects of roguelikes have been streamlined (no cursed items for example, yay!) so that you can focus on the interesting bits.&lt;/p&gt;
+
+&lt;p&gt;Great games are a continued series of interesting decisions. In that light, Tales of Maj’Eyal is a great game. If you like roleplaying games new or old, I recommend you check it out. ToME is a free, open-source project, and you can download it for virtually any operating system at &lt;a href=&quot;http://te4.org/download&quot;&gt;http://te4.org/download&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And remember, as with any roguelike game: dying is fun.&lt;/p&gt;
+
+&lt;p&gt;-SP&lt;/p&gt;
+
+</description>
+      </item>
     
       <item>
         <title>Frozen Rivers</title>

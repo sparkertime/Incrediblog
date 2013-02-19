@@ -121,7 +121,7 @@ This is a tall order for a static HTML generator to handle. After reading [this 
 
 Here's the Sinatra app in full:
 
-{% syntax ruby http://github.com/citizenparker/incrediblog/raw/master/lib/email.rb %}
+{% syntax ruby https://raw.github.com/citizenparker/incrediblog/master/lib/email.rb %}
 {% endsyntax %}
 
 There's really not much to it. The contact page then just checks for the "success" or "errors" URL parameters to display an appropriate message. A little wonky, but it works and it saves me from serving any HTML content outside of Jekyll.
